@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e3f2fd;
+
+}
+
+
+.contenedor{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 10fr 1fr;
+    grid-template-areas:"header header header"
+                        "main main main"
+                        "footer footer footer";
+}
+
+header {
+    grid-area: header;
+    background: black;
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.logo__titulo {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 10px;
+
+}
+
+.enlace__titulo {
+    min-width: 200px;
+    min-height: 200px;
+
+    width: 200px;
+    height: 200px;
+
+    background-image: url(logosypsyNgro.jpg);
+    background-size: cover;
+}
+
+.titulo__principal {
+    color: rgb(14, 14, 224);
+}
+
+.span__01 {
+    color: rgb(255, 0, 170);
+}
+
+main {
+    width: 100%;
+    grid-area: main;
+}
+
+.presentacion {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.texto {
+    width: 50%;
+}
+
+main img {
+    width: 300px;
+    height: 300px;
+}
+
+
+.targeta {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(131, 193, 243);
+}
+.targeta ul {
+    list-style: none;
+
+}
+
+.btn__crear {
+    font-size: 32px;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    background-color: #d819af;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0;
+    gap: 10px 20px;
+}
+
+.card {
+    min-width: 200px;
+    min-height: 300px;
+    border: 1px solid rgb(255, 0, 179);
+    background: grey;
+    flex: 1 1 150px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.card img {
+    width: 200px;
+    height: 150px;
+}
+
+footer {
+    background: black;
+    grid-area: footer;
+    text-align: center;
+    color: blue;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fa-whatsapp {
+    color: green;
+    width: 30px;
+    height: 30px;
+}
+
+.imagenlogo {
+    margin: auto;
+}
+
+.imagenlogo img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
