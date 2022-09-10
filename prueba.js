@@ -1,8 +1,6 @@
 
-
-
-// const container = document.getElementById("container");
-const btnCrear = document.getElementById("btn__crear");
+const container = document.getElementById("container");
+// const btnCrear = document.getElementById("btn__crear");
 
 var appSypsy = {};
 const menualtokee = datos =>{
@@ -12,16 +10,17 @@ const menualtokee = datos =>{
     let contador = 0;
     appSypsy.menualtokee.map(menualtokee => {
         contador++;
-        cards+=`<div class="card caja__${contador}"><h2>${menualtokee.imagen}</h2></div>
+        cards+=`<div class="card caja__${contador}"><img src="${menualtokee.imagen}" alt="" srcset=""></div>
         `;
         for(let propiedad of Object.keys(menualtokee)){
             cards+="<li>"+propiedad+" : "+menualtokee[propiedad]+"</li>";
         }
-    // console.log(menualtokee.imagen)
+    console.log(menualtokee.imagen)
 
     })
-    // document.getElementById("container").innerHTML = cards;
+    document.getElementById("container").innerHTML = cards;
 }
+
 
 
 // const container = document.getElementById("container");

@@ -1,28 +1,4 @@
-var app = {};
-let container = document.getElementById("container");
 
-// var menualtokee = datos =>{
-//     app.menualtokee=datos;
-//     var tarjetas = "";
-//     app.menualtokee.map(menualtokee =>{
-//     let contador=0;
-//         tarjetas+=`
-//             <div class="col caja__${contador++}" id="">
-//                       <div class="card">
-//                         <img src="${menualtokee.imagen}" alt="${menualtokee.name}">
-//                         <div class="card-body">
-//                           <h5 class="card-title"><b>${menualtokee.nombre}</b></h5>
-//                           <ul>
-//                             <li>${app.menualtokee.ingrediente}</li>
-//                           </ul>
-//                         </div>
-//                       </div>
-//                     </div>`
-//         }
-//     )
-//     document.getElementById("container").innerHTML = tarjetas;
-
-// }
 
 var miCallback = datos =>{
     console.log(datos);

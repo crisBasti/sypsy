@@ -1,31 +1,31 @@
-menualtokee([
+productossypsy([
     {
-        "nombre": "Simple",
+        "nombre": "",
         "carnes": 1,
         "ingrediente": [],
-        "precio": 279,
-        "imagen": "https://thumbs.dreamstime.com/b/hamburguesa-simple-727566.jpg"
+        "precio": ,
+        "imagen": ""
     },
     {
         "nombre": "Completa",
         "carnes": 1,
         "ingrediente": ["jamon","queso","huevo","lechuga","tomate"],
         "precio": 319,
-        "imagen": "../imagenes/completa.jpg"
+        "imagen": "./imagenes/completa.jpg"
     },
     {
         "nombre": "Completa Doble",
         "carnes": 2,
         "ingrediente": ["jamon","queso","huevo","lechuga","tomate"],
         "precio": 419,
-        "imagen": "../imagenes/completa-doble.jpg"
+        "imagen": "./imagenes/completa-doble.jpg"
     },
     {
         "nombre": "cheddar 2x",
         "carnes": 2,
         "ingrediente": ["cheddar"],
         "precio": 359,
-        "imagen": "../imagenes/cheddar-2x.jpg"
+        "imagen": "./imagenes/cheddar-2x.jpg"
     },
     {
         "nombre": "cheddar 3x",
@@ -39,14 +39,14 @@ menualtokee([
         "carnes": 4,
         "ingrediente": ["cheddar"],
         "precio": 510,
-        "imagen": "../imagenes/cheddar-4x.jpeg"
+        "imagen": "./imagenes/cheddar-4x.jpeg"
     },
     {
         "nombre": "Blanca",
         "apellido": "Gmenez",
         "edad": 54,
         "trabajo": ["sirvienta", "mucama", "cocinera"],
-        "imagen":"../imagenes/postre-oreo-chocotorta.jpg"
+        "imagen":"./imagenes/postre-oreo-chocotorta.jpg"
     },
     {
         "nombre": "Cintia",
@@ -60,7 +60,7 @@ menualtokee([
         "apellido": "Portillo",
         "edad": 34,
         "trabajo": ["falabella", "ocasa", "sacabollo"],
-        "imagen":"../imagenes/completa.jpg"
+        "imagen":"./imagenes/completa.jpg"
     },
     {
         "nombre": "Leiza",

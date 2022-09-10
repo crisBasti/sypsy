@@ -71,10 +71,16 @@ main {
     display: flex;
     justify-content:space-between;
     align-items: center;
+    flex-wrap: wrap;
+}
+.mapaRadial:hover {
+    width: 500px;
+    height: 500px;
 }
 
 .texto {
     width: 50%;
+    font-size: 1.5em;
 }
 
 main img {
