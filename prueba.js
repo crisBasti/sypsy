@@ -11,7 +11,10 @@ const menualtokee = datos =>{
     appSypsy.menualtokee.map(menualtokee => {
         contador++;
         cards+=`<div class="card caja__${contador}">
+        <h2>${menualtokee.nombre}</h2>
         <img src="${menualtokee.imagen}" alt="" srcset="">
+        <p>$ ${menualtokee.precio}</p>
+        <button id="btn__comprar" class="btn__comprar">Comprar<button/>
         </div>
         `;
         // for(let propiedad of Object.keys(menualtokee)){
@@ -21,6 +24,14 @@ const menualtokee = datos =>{
     })
     document.getElementById("container").innerHTML = cards;
 }
+
+container.addEventListener('click', (e) => {
+    // console.log(e.target)
+    if(e.target.classList.contains('btn__comprar')){
+        alert('confirmar compra?')
+    }
+    e.stopPropagation()
+})
 
 
 
