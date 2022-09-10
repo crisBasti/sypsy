@@ -10,12 +10,13 @@ const menualtokee = datos =>{
     let contador = 0;
     appSypsy.menualtokee.map(menualtokee => {
         contador++;
-        cards+=`<div class="card caja__${contador}"><img src="${menualtokee.imagen}" alt="" srcset=""></div>
+        cards+=`<div class="card caja__${contador}">
+        <img src="${menualtokee.imagen}" alt="" srcset="">
+        </div>
         `;
-        for(let propiedad of Object.keys(menualtokee)){
-            cards+="<li>"+propiedad+" : "+menualtokee[propiedad]+"</li>";
-        }
-    console.log(menualtokee.imagen)
+        // for(let propiedad of Object.keys(menualtokee)){
+        //     cards+="<li>"+propiedad+" : "+menualtokee[propiedad]+"</li>";
+        // }
 
     })
     document.getElementById("container").innerHTML = cards;
