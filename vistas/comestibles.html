@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="../css/estilo.css">
     <title>SYPSY - Comestibles</title>
 </head>
-<body class="font-monospace">
+<body class="font-monospace" id="body-padre">
     <div class="contenedor">
         <header>
           <div class="logo__titulo">
@@ -73,10 +73,22 @@
           <h1><b>COMESTIBLES</b></h1>
 
           <div class="exclusivo" id="exclusivo">
-            <p>Producto exclusivo de esta semana. aprobecha todos sus descuentos y beneficios</p>
-            <div class="img-exclusivo" id="img-exclusivo">
-              <img src="https://www.clarin.com/img/2021/05/20/la-hamburguesa-triple-cheese-bacon___Lj4vcOHr__640x361__1.jpg" alt="" srcset="">
+            <div class="parrafo">
+              <p>Producto exclusivo de esta semana. aprobecha todos sus descuentos y beneficios</p>
             </div>
+            <div class="img-exclusivo" id="img-exclusivo">
+              <img src="../imagenes/logo-Altokee15rojo.jpeg" alt="Producto Exclusivo" srcset="">
+            </div>
+          </div>
+
+          <!-- <div class="cajaqr">
+            <img src="../imagenes/qrmercadopago.jpeg" alt="QR Pago" srcset="">
+          </div> -->
+          
+          <div class="cajaPrecios" id="cajaPrecios">
+            <div class="carrito" id="carrito"></div>
+            
+            <button class="pagar__total" id="pagar__total"><a href="link.mercadopago.com.ar/sypsy">Pagar Total</a></button>
           </div>
 
           <div class="container" id="container">
@@ -88,6 +100,9 @@
             <a href ="https://wa.me/5491128398324?text=Hola%20Quiero%20este%20producto/servicios">
               <i class="fa-brands fa-whatsapp"></i>
             </a>
+            <div class="copyrigth">
+              <p class="copy">&copy;SYPSY Todos los Derechos reservados</p>
+            </div>
         </footer>
     </div>
 

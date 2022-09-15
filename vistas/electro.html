@@ -67,13 +67,25 @@
         </header>
         <main class="text-center">
           <h1><b>ELECTRO</b></h1>
+          <button id="boton-carrito"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span></button>
 
           <div class="exclusivo" id="exclusivo">
-            <p>Producto exclusivo de esta semana. aprobecha todos sus descuentos y beneficios</p>
+            <div class="parrafo">
+              <p>Producto exclusivo de esta semana. aprobecha todos sus descuentos y beneficios</p>
+            </div>
             <div class="img-exclusivo" id="img-exclusivo">
               <img src="https://www.arquitecno.com.ar/productos/1547556804/01_1611856833.jpg" alt="" srcset="">
             </div>
           </div>
+
+          <div class="carrito-contenedor" id="carrito-contenedor">
+            
+          </div>
+
+          <button class="vaciar-carrito" id="vaciar-carrito">Vaciar Carrito</button>
+            <p class="precioProducto" id="precioProducto">Precio total: $ <span id="precioTotal">0</span></p>
+          
+
 
           <div class="container" id="container">
             
@@ -84,13 +96,20 @@
             <a href ="https://wa.me/5491128398324?text=Hola%20Quiero%20este%20producto/servicios">
               <i class="fa-brands fa-whatsapp"></i>
             </a>
+            <div class="copyrigth">
+              <p class="copy">&copy;SYPSY Todos los Derechos reservados</p>
+            </div>
         </footer>
     </div>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-    <script src="../prueba.js"></script>
-    <script src="../menualtokee.jsonp"></script>
+    
+    <!-- <script src="../prueba.js"></script> -->
+    <!-- <script src="../menualtokee.jsonp"></script> -->
+    
+    <script src="../db_productosElectro.js"></script>
+    <script src="../agregarAlCarrito.js"></script>
     
 </body>
 </html>

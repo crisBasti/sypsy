@@ -1,8 +1,9 @@
 
 const container = document.getElementById("container");
+const body = document.getElementById("body-padre");
 // const btnCrear = document.getElementById("btn__crear");
 
-var appSypsy = {};
+const appSypsy = {};
 const menualtokee = datos =>{
     console.log(datos);
     appSypsy.menualtokee=datos;
@@ -14,7 +15,7 @@ const menualtokee = datos =>{
         <h2>${menualtokee.nombre}</h2>
         <img src="${menualtokee.imagen}" alt="" srcset="">
         <p>$ ${menualtokee.precio}</p>
-        <button id="btn__comprar" class="btn__comprar">Comprar<button/>
+        <button id="btn__comprar" class="btn__comprar">Agregar</button>
         </div>
         `;
         // for(let propiedad of Object.keys(menualtokee)){
@@ -23,15 +24,50 @@ const menualtokee = datos =>{
 
     })
     document.getElementById("container").innerHTML = cards;
-}
+
+    const carrito = document.getElementById('carrito');
 
 container.addEventListener('click', (e) => {
     // console.log(e.target)
-    if(e.target.classList.contains('btn__comprar')){
-        alert('confirmar compra?')
+
+    // if(e.target.classList.contains('btn__comprar')){
+    if(e.target.classList.contains('card')){
+
+        console.log(e.target)
+        // console.log(appSypsy);
+
+        // console.log(appSypsy.menualtokee);
+
+        // console.log(appSypsy.menualtokee[0].precio);
+
+        // const carrito = [];
+        // appSypsy.menualtokee.map(menualtokee => {
+        //     let precioProducto = menualtokee.precio;
+        //     carrito.push(precioProducto)
+        //     console.log(carrito)
+        // })
+
+
+        
+        // con este codigo aparece el QR de pago de mercado Pago ->
+        // let $figure = document.createElement("figure");
+        // let $img = document.createElement("img");
+        // let $cajaqr = document.createElement("div");
+
+        // $img.setAttribute("src", "../imagenes/qrmercadopago.jpeg");
+        // $img.setAttribute("alt", "QR de pago");
+        // $cajaqr.classList.add("cajaqr")
+
+        // $figure.appendChild($img);
+        // $cajaqr.appendChild($figure);
+        // body.appendChild($cajaqr);
+        
     }
     e.stopPropagation()
 })
+}
+
+
 
 
 
