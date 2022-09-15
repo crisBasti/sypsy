@@ -67,7 +67,7 @@
         </header>
         <main class="text-center">
           <h1><b>ELECTRO</b></h1>
-          <button id="boton-carrito"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span></button>
+          <button class="boton-carrito" id="boton-carrito"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span></button>
 
           <div class="exclusivo" id="exclusivo">
             <div class="parrafo">
@@ -76,14 +76,30 @@
             <div class="img-exclusivo" id="img-exclusivo">
               <img src="https://www.arquitecno.com.ar/productos/1547556804/01_1611856833.jpg" alt="" srcset="">
             </div>
+            <br>
+            <br>
+            <button class="btnAgregarExclusivo" id="btnAgregarExclusivo ">Agregar <i class="fas fa-shopping-cart"></i></button>
           </div>
 
-          <div class="carrito-contenedor" id="carrito-contenedor">
+          <!-- CARRITO MODAL -->
+          <section class="modal" id="modal">
+            <div class="padre__modal">
+              <div class="modal__container" id="modal__container">
+                <h2 class="modal__titulo">Tu Carrito</h2>
+              </div>
+              <button class="vaciar-carrito" id="vaciar-carrito">Vaciar Carrito</button>
+                <p class="precioProducto" id="precioProducto">Precio total: $ <span id="precioTotal">0</span></p>
+                <button class="pagarTotal" id="pagarTotal">Pagar</button>
+                <a href="#" id="modal__close" class="modal__close">X</a>
+            </div>
+          </section>
+
+          <!-- <div class="carrito-contenedor" id="carrito-contenedor">
             
-          </div>
+          </div> -->
 
-          <button class="vaciar-carrito" id="vaciar-carrito">Vaciar Carrito</button>
-            <p class="precioProducto" id="precioProducto">Precio total: $ <span id="precioTotal">0</span></p>
+          <!-- <button class="vaciar-carrito" id="vaciar-carrito">Vaciar Carrito</button>
+            <p class="precioProducto" id="precioProducto">Precio total: $ <span id="precioTotal">0</span></p> -->
           
 
 

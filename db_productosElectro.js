@@ -10,5 +10,6 @@ const productosElectro = [
     {id: 9, nombre: "Parlante mini", tipo: "Parlante", cantidad: 1, desc: "Colores varios, se conecta con cable, via bluetooth. Nuevo en caja", precio: 500, talle: "", img:"../imagenes/imgElectro/paarlantesMini.jpeg", marca:"China"},
     {id: 10, nombre: "Balanza de Precision", tipo: "Digital", cantidad: 1, desc: "Color Gris, se carga con cable mini usb. Nuevo en caja", precio: 2000, talle: "", img:"../imagenes/imgElectro/balanzaPrecision.jpeg", marca:"Shirka"},
     {id: 11, nombre: "Laser", tipo: "Led", cantidad: 1, desc: "Color negro, fnciona a pilas. Nuevo en caja", precio: 800, talle: "", img:"../imagenes/imgElectro/laser.jpeg", marca:"China"},
-    {id: 12, nombre: "Auriculares Y47", tipo: "Auricular", cantidad: 1, desc: "Color rosa, se conecta con cable, via Bluetooth. Se carga con mini usb. Nuevo en caja", precio: 2500, talle: "", img:"../imagenes/imgElectro/auricularesY47.jpeg", marca:"Y47"}
+    {id: 12, nombre: "Auriculares Y47", tipo: "Auricular", cantidad: 1, desc: "Color rosa, se conecta con cable, via Bluetooth. Se carga con mini usb. Nuevo en caja", precio: 2500, talle: "", img:"../imagenes/imgElectro/auricularesY47.jpeg", marca:"Y47"},
+    {id: 13, nombre: "Teclado weibo Luminoso", tipo: "kit luminoso", cantidad: 1, desc: "Kit gamer. Teclado y mouse luminosos. Teclado estatico y mouse retro Luminico. Nuevo en caja", precio: 4500, talle: "", img:"../imagenes/imgElectro/Teclado-Weibo.jpeg", marca:"Y47"}
 ]

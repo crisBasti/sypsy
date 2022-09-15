@@ -1,6 +1,6 @@
 const container = document.getElementById('container');
 
-const carritoContenedor = document.getElementById('carrito-contenedor');
+// const carritoContenedor = document.getElementById('carrito-contenedor');
 
 const botonVaciar = document.getElementById('vaciar-carrito');
 
@@ -10,6 +10,33 @@ const precioProducto = document.getElementById('precioProducto');
 
 const precioTotal = document.getElementById('precioTotal');
 
+const modal = document.getElementById('modal');
+
+const modalContainer = document.getElementById('modal__container');
+
+const btnCarrito = document.getElementById('boton-carrito');
+
+const pagarTotal = document.getElementById('pagarTotal');
+
+const btnCloseCarrito = document.getElementById('modal__close');
+
+
+
+
+pagarTotal.addEventListener('click', ()=>{
+    alert('confirmar pago?')
+})
+
+btnCarrito.addEventListener('click', (e)=>{
+    e.preventDefault;
+    modal.classList.add('modal--show')
+})
+
+btnCloseCarrito.addEventListener('click', (e)=>{
+    e.preventDefault;
+    modal.classList.remove('modal--show')
+})
+
 
 let carrito = [];
 
@@ -18,7 +45,7 @@ botonVaciar.addEventListener('click', ()=>{
     actualizarCarrito()
     document.getElementById('vaciar-carrito').style.display = 'none';
     document.getElementById('precioProducto').style.display = 'none';
-
+    document.getElementById('pagarTotal').style.display = 'none';
 
 })
 
@@ -29,9 +56,9 @@ productosElectro.forEach((producto)=> {
     <img src=${producto.img} alt="">
     <h3>${producto.nombre}</h3>
     <p>${producto.desc}</p>
-    <p>Tipo: ${producto.tipo}</p>
+    <p> $: ${producto.precio}</p>
     <p class="precioProducto">Precio: $ ${producto.precio}</p>
-    <button id="agregar${producto.id}" class="boton-agregar">Agregar <i class="fas-fa-shopping-cart"></i></button>
+    <button id="agregar${producto.id}" class="boton-agregar">Agregar <i class="fas fa-shopping-cart"></i></button>
     `
 
     container.appendChild(div);
@@ -52,7 +79,6 @@ const agregarAlCarrito = (prodId) => {
     const item = productosElectro.find((prod) => prod.id === prodId)
     carrito.push(item)
     actualizarCarrito()
-    // console.log(carrito)
 }
 
 const eliminarDelCarrito = () => (prodId) => {
@@ -63,7 +89,7 @@ const eliminarDelCarrito = () => (prodId) => {
 }
 
 const actualizarCarrito = () => {
-    carritoContenedor.innerHTML= "";
+    modalContainer.innerHTML= "";
 
     carrito.forEach((prod) => {
         const div = document.createElement('div')
@@ -71,11 +97,11 @@ const actualizarCarrito = () => {
         div.innerHTML = `
         <p>${prod.nombre}</p>
         <p>Precio: $ ${prod.precio}</p>
-        <p>Cantidad : <span id="cantidad">${prod.cantidad}</span></p>
-        <button onclick="eliminarDelCarrito(${prod.id})" class="boton-eliminar"><i class="fas fa-trash-alt"></button>
+        <button onclick="eliminarDelCarrito(${prod.id})" class="boton-eliminar"><i class="fas fa-trash-alt"></i></button>
+        <hr>
         `
 
-        carritoContenedor.appendChild(div)
+        modalContainer.appendChild(div)
     })
     contadorCarrito.innerHTML = carrito.length;
     precioTotal.innerText = carrito.reduce((acc, prod) => acc + prod.precio, 0);
