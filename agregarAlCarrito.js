@@ -69,6 +69,8 @@ productosElectro.forEach((producto)=> {
         agregarAlCarrito(producto.id);
         document.getElementById('vaciar-carrito').style.display = 'block';
         document.getElementById('precioProducto').style.display = 'block';
+        document.getElementById('pagarTotal').style.display = 'block';
+
 
 
 
