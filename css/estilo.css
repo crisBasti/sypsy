@@ -365,7 +365,7 @@ footer {
 .vidriera {
     width: 100%;
     height: 400px;
-    background-color: rgb(87, 47, 179);
+    background-color: #bdecfd;
     margin: 10px 0;
 
     display: flex;
