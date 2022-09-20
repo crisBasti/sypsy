@@ -33,6 +33,14 @@ header {
     margin: auto;
 }
 
+.nav-link:hover {
+    border-bottom: 3px solid #ff00f7;
+}
+
+.nav-link :active {
+    border-bottom: 3px solid #ff00f7;
+}
+
 .logo__titulo {
     width: 100%;
     height: fit-content;
@@ -56,12 +64,34 @@ header {
 
 .titulo__principal {
     color: #1c00f2;
-    /* color: rgb(14, 14, 224); */
 }
+
+
 
 .span__01 {
     color: rgb(255, 0, 170);
 }
+
+.navbar-expand-lg {
+    background-color: #1c00f2;
+
+}
+
+.navbar-nav {
+    font-size: 1.5em;
+}
+
+/* .nav-link {
+    color: #ff00f7;
+} */
+
+.d-block {
+    width: 90%;
+    height: 350px;
+    margin: 0 5%;
+}
+
+
 
 main {
     display: flex;
@@ -112,12 +142,12 @@ main img {
 .img-exclusivo {
     min-width: 300px;
     min-height: 300px;
-    width: 100%;
+    width: 70%;
     height: fit-content;
     /* padding: 10px; */
     background-color: #000000;
     border: 2px solid black;
-    /* margin:20px 0 20px 0; */
+    margin: 0 0 20px 0;
 
 }
 .btnAgregarExclusivo {
@@ -320,4 +350,65 @@ footer {
     width: 300px;
     height: 300px;
     border-radius: 50%;
+}
+
+.caja__banners {
+    width: 100%;
+}
+
+.banner {
+    width: 100%;
+    height: fit-content;
+
+}
+
+.vidriera {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(87, 47, 179);
+    margin: 10px 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.redondel {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.imgIndu {
+    background-image: url('../imagenes/buscando-ropa.jpg');
+    background-position: -150px -50px;
+    background-attachment: cover;
+}
+
+.imgElectro {
+    background-image: url('../imagenes/comprando-electronicos.jpg');
+    background-position: -200px -50px;
+
+}
+
+.imgComestibles {
+    background-image: url('../imagenes/cometibles-online.jpg');
+    background-position: -150px 0px;
+}
+
+.imgServicios {
+    background-image: url('../imagenes/profesionales.jpg');
+    background-position: -150px 0px;
+    /* background-attachment: cover; */
+
+
+}
+
+.imgVarios {
+    background-image: url('../imagenes/articulosVarios.jpg');
+    background-position: -150px -30px;
+
+
 }
