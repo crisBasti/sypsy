@@ -1,0 +1,49 @@
+header {
+    grid-area: header;
+    background: black;
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+
+    .logo__titulo {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+        padding: 10px;
+
+        .enlace__titulo {
+            min-width: 200px;
+            min-height: 200px;
+        
+            width: 200px;
+            height: 200px;
+        
+            background-image: url(logosypsyNgro.jpg);
+            background-size: cover;
+        }
+
+        .titulo__principal {
+            color: $principal;
+
+            .span__01 {
+                color: $secondary;
+            }
+        }
+    
+    }
+
+    .navbar-expand-lg {
+        background-color: $principal;
+
+        .navbar-nav {
+            font-size: 1.5em;
+            margin: auto;
+
+            .nav-link:hover {
+                border-bottom: 3px solid #ff00f7;
+            }
+        }
+    }
+}

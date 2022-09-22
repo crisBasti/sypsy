@@ -1,16 +1,25 @@
-* {
+
+/* VARIABLES */
+
+/* :root {
+    --principal: #1c00f2;
+    --secondary: rgb(255, 0, 170);
+} */
+
+
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
-body {
+/* body {
     background-color: #e3f2fd;
 
-}
+} */
 
 
-.contenedor{
+/* .contenedor{
     width: 100%;
     height: 100vh;
     display: grid;
@@ -19,29 +28,17 @@ body {
     grid-template-areas:"header header header"
                         "main main main"
                         "footer footer footer";
-}
-
+} */
+/* 
 header {
     grid-area: header;
     background: black;
     text-align: center;
     width: 100%;
     height: fit-content;
-}
+} */
 
-.navbar-nav {
-    margin: auto;
-}
-
-.nav-link:hover {
-    border-bottom: 3px solid #ff00f7;
-}
-
-.nav-link :active {
-    border-bottom: 3px solid #ff00f7;
-}
-
-.logo__titulo {
+/* .logo__titulo {
     width: 100%;
     height: fit-content;
     display: flex;
@@ -49,9 +46,9 @@ header {
     background-color: black;
     padding: 10px;
 
-}
+} */
 
-.enlace__titulo {
+/* .enlace__titulo {
     min-width: 200px;
     min-height: 200px;
 
@@ -60,40 +57,39 @@ header {
 
     background-image: url(logosypsyNgro.jpg);
     background-size: cover;
-}
+} */
 
-.titulo__principal {
-    color: #1c00f2;
-}
+/* .titulo__principal {
+    color: $principal;
+} */
 
 
 
-.span__01 {
-    color: rgb(255, 0, 170);
-}
+/* .span__01 {
+    color: $secondary;
+} */
 
-.navbar-expand-lg {
-    background-color: #1c00f2;
+/* .navbar-expand-lg {
+    background-color: $principal;
+} */
 
-}
-
-.navbar-nav {
+/* .navbar-nav {
     font-size: 1.5em;
-}
+    margin: auto;
+} */
 
 /* .nav-link {
     color: #ff00f7;
 } */
 
-.d-block {
-    width: 90%;
-    height: 350px;
-    margin: 0 5%;
-}
+/* .nav-link:hover {
+    border-bottom: 3px solid #ff00f7;
+} */
 
 
 
-main {
+
+/* main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -101,30 +97,38 @@ main {
     width: 100%;
     grid-area: main;
     margin-bottom: 20px;
-}
+} */
 
-.presentacion {
+/* main img {
+    width: 100%;
+    height: 300px;
+} */
+
+/* .container {
+    display: flex;
+    flex-flow: wrap;
+    gap: 10px;
+} */
+
+/* .presentacion {
     display: flex;
     justify-content:space-around;
     align-items: center;
     flex-wrap: wrap;
-}
-.mapaRadial:hover {
+} */
+
+/* .mapaRadial:hover {
     width: 500px;
     height: 500px;
-}
+} */
 
-.texto {
+/* .texto {
     width: 50%;
     font-size: 1.5em;
-}
+} */
 
-main img {
-    width: 100%;
-    height: 300px;
-}
 
-.exclusivo {
+/* .exclusivo {
     width: 100%;
     height: fit-content;
     background-color: #01d0fe2b;
@@ -133,42 +137,30 @@ main img {
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 20px;
-}
+} */
 
-.exclusivo p {
+/* .exclusivo p {
     font-size: 2em;
-}
+} */
 
-.img-exclusivo {
+/* .img-exclusivo {
     min-width: 300px;
     min-height: 300px;
     width: 70%;
     height: fit-content;
-    /* padding: 10px; */
     background-color: #000000;
     border: 2px solid black;
     margin: 0 0 20px 0;
+    
+} */
 
-}
-.btnAgregarExclusivo {
-    margin: 20px;
-
-}
-
-
-.carrito-contenedor {
-    /* border: 1px solid red; */
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.boton-carrito {
+/* .boton-carrito {
     width: 50px;
     border-radius: 20px;
     margin: 10px;
-}
+} */
 
-.modal {
+/* .modal {
     position: fixed;
     top: 0;
     left: 0;
@@ -181,20 +173,19 @@ main img {
     transition: opacity .6s;
     --transform: translateY(-100vh);
     --transition: transform .8s;
-}
+} */
 
-.modal--show {
+/* .modal--show {
     opacity: 1;
     pointer-events: unset;
     transition: opacity .6s;
     --transform: translateY(0);
-}
+} */
 
-.padre__modal {
+/* .padre__modal {
     margin: auto;
     width: fit-content;
     max-width: 600px;
-    /* max-height: 90%; */
     background-color: #fff;
     border-radius: 6px;
     padding: 3em 2.5em;
@@ -204,101 +195,91 @@ main img {
     grid-auto-columns: 100%;
     transform: var(--transform);
     transition: var(--transition);
-}
+} */
 
-.modal__container {
+/* .modal__container {
     margin: auto;
     width: fit-content;
     max-width: 600px;
-    /* max-height: 90%;
-    background-color: #fff;
-    border-radius: 6px;
-    padding: 3em 2.5em;
-    display: grid;
-    gap: 1em;
-    place-items: center;
-    grid-auto-columns: 100%;
-    transform: var(--transform);
-    transition: var(--transition); */
+} */
 
-}
-
-.modal__titulo {
+/* .modal__titulo {
     font-size: 2.5rem;
-}
+} */
 
-.modal__parrafo {
+/* .modal__parrafo {
     margin-bottom: 10px;
-}
+} */
 
-.pagarTotal {
-    color: rgb(255, 0, 170);
-    background-color: #1c00f2;
-}
+/* .pagarTotal {
+    color: $secondary;
+    background-color: $principal;
+} */
 
-.pagarTotal:hover {
-    color: #1c00f2;
-    background-color: rgb(255, 0, 170);
-}
+/* .pagarTotal:hover {
+    color: $principal;
+    background-color: $secondary;
+} */
 
-.modal__close {
+/* .modal__close {
     text-decoration: none;
-    color: rgb(255, 0, 170);
-    background-color: #1c00f2;
+    color: $secondary;
+    background-color: $principal;
     padding: 1em 3em;
     border: 1px solid ;
     border-radius: 6px;
     display: inline-block;
     font-weight: 300;
     transition: background-color .3s;
-}
+} */
 
-.modal__close:hover {
-    color: #1c00f2;
-    background-color: rgb(255, 0, 170);
-}
+/* .modal__close:hover {
+    color: $principal;
+    background-color: $secondary;
+} */
 
-.vaciar-carrito{
+/* .vaciar-carrito{
     display: none;
     width: fit-content;
     height: fit-content;
     padding: 5px;
     background-color: rgb(30, 0, 255);
-}
+} */
 
-.precioProducto {
+/* .precioProducto {
     display: none;
-}
-.pagar__total {
+} */
+/* .pagar__total {
     margin: auto;
-}
+} */
 
-.pagar__total:hover{
+/* .pagar__total:hover{
     border-radius: 20px;
     background-color:rgb(255, 0, 174);
-}
+} */
 
-.pagar__total a {
+/* .pagar__total a {
     text-decoration: none;
-}
+} */
 
-.pagar__total a:hover {
+/* .pagar__total a:hover {
     color: #000000;
-}
+} */
 
-.container {
-    display: flex;
-    flex-flow: wrap;
-    gap: 10px;
-}
 
+/* esto es del carrousel */
+.d-block {
+    width: 90%;
+    height: 350px;
+    margin: 0 5%;
+}
 
 /* codigo QR de pago
 
 .cajaqr {
     width: 100%;
     height: 100vh;
-
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -306,12 +287,12 @@ main img {
     position: absolute;
 } */
 
-.container img {
+/* .container img {
     width: 200px;
     height: 200px;
-}
+} */
 
-.card {
+/* .card {
     min-width: 200px;
     min-height: 300px;
     width: fit-content;
@@ -322,47 +303,46 @@ main img {
     justify-content: center;
     align-items: center;
     padding: 10px;
-}
-.btn__comprar {
+} */
+/* .btn__comprar {
     color: aquamarine;
-    background-color: #1c00f2;
-}
+    background-color: $principal;
+} */
 
-footer {
+/* footer {
     background: black;
     grid-area: footer;
     text-align: center;
     color: blue;
     display: flex;
     justify-content: space-evenly;
-}
-.fa-whatsapp {
+} */
+/* .fa-whatsapp {
     color: green;
     width: 30px;
     height: 30px;
-}
+} */
 
-.imagenlogo {
+/* .imagenlogo {
     margin: auto;
-}
+} */
 
-.imagenlogo img {
+/* .imagenlogo img {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-}
+} */
 
-.caja__banners {
+/* .caja__banners {
     width: 100%;
-}
+} */
 
-.banner {
+/* .banner {
     width: 100%;
     height: fit-content;
+} */
 
-}
-
-.vidriera {
+/* .vidriera {
     width: 100%;
     height: 400px;
     background-color: #bdecfd;
@@ -372,16 +352,15 @@ footer {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+} */
 
-}
-
-.redondel {
+/* .redondel {
     width: 350px;
     height: 350px;
     border-radius: 50%;
-}
+} */
 
-.imgIndu {
+/* .imgIndu {
     background-image: url('../imagenes/buscando-ropa.jpg');
     background-position: -150px -50px;
     background-attachment: cover;
@@ -390,7 +369,6 @@ footer {
 .imgElectro {
     background-image: url('../imagenes/comprando-electronicos.jpg');
     background-position: -200px -50px;
-
 }
 
 .imgComestibles {
@@ -401,14 +379,9 @@ footer {
 .imgServicios {
     background-image: url('../imagenes/profesionales.jpg');
     background-position: -150px 0px;
-    /* background-attachment: cover; */
-
-
 }
 
 .imgVarios {
     background-image: url('../imagenes/articulosVarios.jpg');
     background-position: -150px -30px;
-
-
-}
+} */

@@ -1,7 +1,5 @@
 const container = document.getElementById('container');
 
-// const carritoContenedor = document.getElementById('carrito-contenedor');
-
 const botonVaciar = document.getElementById('vaciar-carrito');
 
 const contadorCarrito = document.getElementById('contadorCarrito');
@@ -23,9 +21,7 @@ const btnCloseCarrito = document.getElementById('modal__close');
 
 
 
-pagarTotal.addEventListener('click', ()=>{
-    alert('confirmar pago?')
-})
+
 
 btnCarrito.addEventListener('click', (e)=>{
     e.preventDefault;
@@ -46,6 +42,7 @@ botonVaciar.addEventListener('click', ()=>{
     document.getElementById('vaciar-carrito').style.display = 'none';
     document.getElementById('precioProducto').style.display = 'none';
     document.getElementById('pagarTotal').style.display = 'none';
+    document.querySelector('.pago__Qr').style.display = 'none';
 
 })
 
@@ -70,10 +67,6 @@ productosElectro.forEach((producto)=> {
         document.getElementById('vaciar-carrito').style.display = 'block';
         document.getElementById('precioProducto').style.display = 'block';
         document.getElementById('pagarTotal').style.display = 'block';
-
-
-
-
     })
 })
 
@@ -83,7 +76,7 @@ const agregarAlCarrito = (prodId) => {
     actualizarCarrito()
 }
 
-const eliminarDelCarrito = () => (prodId) => {
+const eliminarDelCarrito = (prodId) => {
     const item = carrito.find((prod) => prod.id === prodId)
     const indice = carrito.indexOf(item)
     carrito.splice(indice, 1);
@@ -107,4 +100,29 @@ const actualizarCarrito = () => {
     })
     contadorCarrito.innerHTML = carrito.length;
     precioTotal.innerText = carrito.reduce((acc, prod) => acc + prod.precio, 0);
+}
+
+
+pagarTotal.addEventListener('click', ()=>{
+    const pagoQr = window.print(modalContainer.div);
+    // const pagoQr = document.createElement('div');
+    //     pagoQr.className = ('pago__Qr')
+    //     pagoQr.innerHTML = `
+    //     <img class="pago__Qr" src="../imagenes/qrmercadopago.jpeg" alt="Qr Mercado Pago">
+    //     <hr>
+    //     <a href="https://www.mercadopago.com.ar/money-out/transfer/new-account">Transferencia</a>
+    //     <hr>
+    //     <button onclick="pagarEfectivo()" class="btn pago__efectivo" id="pago__efectivo">Efectivo</button>
+    //     <hr>
+    //     <a href ="https://wa.me/5491128398324?text=Hola%20Quiero%20este%20producto/servicios%20${carrito}">
+    //         <i class="fa-brands fa-whatsapp"></i>
+    //     </a>
+    //     `
+        modalContainer.appendChild(pagoQr)
+
+        document.getElementById('pagarTotal').style.display = 'none';
+})
+
+const pagarEfectivo = () => {
+    alert('Pagas en el momento de la entrega')
 }

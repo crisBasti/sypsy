@@ -1,17 +1,13 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import './misc/variables';
+@import './misc/normalize';
 
-    body {
-        background-color: #fdece3;
-        main {
-            background-color: red;
-            .container {
-                background-color: red;
-            }
-        }
-    }
-    
-}
+@import './partials/header';
+@import './misc/modalcarrito';
+@import './views/home';
+@import './views/indumentaria';
+@import './views/electro';
+@import './views/comestibles';
+@import './views/servicios';
+@import './views/varios';
+@import './partials/footer';
 

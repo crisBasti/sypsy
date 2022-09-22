@@ -1,0 +1,168 @@
+.contenedor {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 10fr 1fr;
+    grid-template-areas:"header header header"
+                        "main main main"
+                        "footer footer footer";
+
+    main {
+
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px 10px;
+        width: 100%;
+        grid-area: main;
+        margin-bottom: 20px;
+
+        img {
+            width: 100%;
+            height: 300px;
+        }
+
+        .boton-carrito {
+            width: 50px;
+            border-radius: 20px;
+            margin: 10px;
+            background-color: pink;
+        }
+
+        .exclusivo {
+            width: 100%;
+            height: fit-content;
+            background-color: #01d0fe2b;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+
+            p {
+                font-size: 2em;
+            }
+
+            .img-exclusivo {
+                min-width: 300px;
+                min-height: 300px;
+                width: 70%;
+                height: fit-content;
+                background-color: #000000;
+                border: 2px solid black;
+                margin: 0 0 20px 0;
+                
+            }
+        }
+
+        .container {
+            display: flex;
+            flex-flow: wrap;
+            gap: 10px;
+
+            img {
+                width: 200px;
+                height: 200px;
+            }
+
+            .presentacion {
+                display: flex;
+                justify-content:space-around;
+                align-items: center;
+                flex-wrap: wrap;
+
+                .imagenlogo {
+                    margin: auto;
+
+                    img {
+                        width: 300px;
+                        height: 300px;
+                        border-radius: 50%;
+                    }
+                }
+
+                .mapaRadial:hover {
+                    width: 500px;
+                    height: 500px;
+                }
+
+                .texto {
+                    width: 50%;
+                    font-size: 1.5em;
+                }
+            }
+
+            .card {
+                min-width: 200px;
+                min-height: 300px;
+                width: fit-content;
+                border: 1px solid rgb(28 0 242);
+                background: #e9ecef;
+                flex: 1 1 150px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 10px;
+
+                .btn__comprar {
+                    color: aquamarine;
+                    background-color: $principal;
+                }
+            }
+        }
+
+        .caja__banners {
+            width: 100%;
+
+            .banner {
+                width: 100%;
+                height: fit-content;
+
+                .vidriera {
+                    width: 100%;
+                    height: 400px;
+                    background-color: #bdecfd;
+                    margin: 10px 0;
+                
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    align-items: center;
+
+                    .redondel {
+                        width: 350px;
+                        height: 350px;
+                        border-radius: 50%;
+                    }
+
+                    .imgIndu {
+                        background-image: url('../imagenes/buscando-ropa.jpg');
+                        background-position: -150px -50px;
+                        background-attachment: cover;
+                    }
+                    
+                    .imgElectro {
+                        background-image: url('../imagenes/comprando-electronicos.jpg');
+                        background-position: -200px -50px;
+                    }
+                    
+                    .imgComestibles {
+                        background-image: url('../imagenes/cometibles-online.jpg');
+                        background-position: -150px 0px;
+                    }
+                    
+                    .imgServicios {
+                        background-image: url('../imagenes/profesionales.jpg');
+                        background-position: -150px 0px;
+                    }
+                    
+                    .imgVarios {
+                        background-image: url('../imagenes/articulosVarios.jpg');
+                        background-position: -150px -30px;
+                    }
+                }
+            }
+        }
+    }
+}

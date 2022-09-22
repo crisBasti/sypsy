@@ -2,16 +2,24 @@
   "name": "sypsy_proyect_2022",
   "version": "1.0.0",
   "description": "",
-  "main": "codigo.js",
+  "main": "agregarAlCarrito.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-sass": "sass --include-path scss sass/index.scss css/main.css"
+    "build-sass": "node-sass --include-path scss sass/index.scss css/index.css",
+    "watch-sass": "nodemon -e scss -x \"npm run build-sass\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crisBasti/sypsy.git"
   },
   "keywords": [],
-  "author": "Cristian Portillo",
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crisBasti/sypsy/issues"
+  },
+  "homepage": "https://github.com/crisBasti/sypsy#readme",
   "devDependencies": {
-    "sass": "^1.54.8"
+    "nodemon": "^2.0.20"
   }
-
 }

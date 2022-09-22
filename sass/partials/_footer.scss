@@ -1,0 +1,15 @@
+footer {
+    background: black;
+    grid-area: footer;
+    text-align: center;
+    color: blue;
+    display: flex;
+    justify-content: space-evenly;
+
+    .fa-whatsapp {
+        color: green;
+        width: 30px;
+        height: 30px;
+        font-size: 50px;
+    }
+}
