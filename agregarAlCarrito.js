@@ -91,6 +91,7 @@ const actualizarCarrito = () => {
         div.className = ('productoCarrito')
         div.innerHTML = `
         <p>${prod.nombre}</p>
+        <p>ID : ${prod.id}</p>
         <p>Precio: $ ${prod.precio}</p>
         <button onclick="eliminarDelCarrito(${prod.id})" class="boton-eliminar"><i class="fas fa-trash-alt"></i></button>
         <hr>
@@ -104,25 +105,25 @@ const actualizarCarrito = () => {
 
 
 pagarTotal.addEventListener('click', ()=>{
-    const pagoQr = window.print(modalContainer.div);
-    // const pagoQr = document.createElement('div');
-    //     pagoQr.className = ('pago__Qr')
-    //     pagoQr.innerHTML = `
-    //     <img class="pago__Qr" src="../imagenes/qrmercadopago.jpeg" alt="Qr Mercado Pago">
-    //     <hr>
-    //     <a href="https://www.mercadopago.com.ar/money-out/transfer/new-account">Transferencia</a>
-    //     <hr>
-    //     <button onclick="pagarEfectivo()" class="btn pago__efectivo" id="pago__efectivo">Efectivo</button>
-    //     <hr>
-    //     <a href ="https://wa.me/5491128398324?text=Hola%20Quiero%20este%20producto/servicios%20${carrito}">
-    //         <i class="fa-brands fa-whatsapp"></i>
-    //     </a>
-    //     `
+    const pagoQr = document.createElement('div');
+        pagoQr.className = ('pago__Qr')
+        pagoQr.innerHTML = `
+        <img class="pago__Qr" src="../imagenes/qrmercadopago.jpeg" alt="Qr Mercado Pago">
+        <hr>
+        <button onclick="pagarEfectivo()" class="btn pago__efectivo" id="pago__efectivo">Efectivo</button>
+        <hr>
+        <p>Link de Pago de MP : <a src="#">link.mercadopago.com.ar/sypsy</a></p>
+        <hr>
+        <a href="https://www.mercadopago.com.ar/money-out/transfer/new-account">Transferencia</a>
+        <hr>
+        <a href ="https://wa.me/5491128398324?text=Hola%20Quiero%20este%20producto/servicios%20total%20Productos:%20${carrito.length}%20${modalContainer.textContent}%20Precio%20Total:%20${precioTotal.textContent}%20">Arreglar el envio y el pago <br><i class="fa-brands fa-whatsapp"></i></a>`
+
         modalContainer.appendChild(pagoQr)
 
         document.getElementById('pagarTotal').style.display = 'none';
+
 })
 
 const pagarEfectivo = () => {
-    alert('Pagas en el momento de la entrega')
+    alert('Arreglar el pago en el momento de la entrega. click en el icono de Whatsapp')
 }
