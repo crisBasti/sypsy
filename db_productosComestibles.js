@@ -1,15 +1,59 @@
-const productosComestibles = [
-    {id: 1, nombre: "Auriculares Samsung", tipo: "auricular", cantidad: 1, desc: "Nuevo en caja se conecta con cable, color blanco,", precio: 500, talle: "", img:"../imagenes/imgElectro/auricularesSamsung.jpeg", marca:"Samsung"},
-    {id: 2, nombre: "Cargador 4.2A", tipo: "cargador", cantidad: 1, desc: "Color blanco, se conecta con cable usb extraible, Nuevo en caja", precio: 1200, talle: "", img:"../imagenes/imgElectro/cargador-inova.jpeg", marca:"Inova"},
-    {id: 3, nombre: "Cable usb Negro", tipo: "USB", cantidad: 1, desc: "Color negro, aproximadamente 1 metro. Nuevo en caja", precio: 700, talle: "", img:"../imagenes/imgElectro/cableUSB.jpeg", marca:"Mobile"},
-    {id: 4, nombre: "Cargador para Iphone", tipo: "Cargador", cantidad: 1, desc: "Color blanco, se conecta con cable USB extraible. Nuevo en caja", precio: 1500, talle: "", img:"../imagenes/imgElectro/cargadorApple.jpeg", marca:"Apple"},
-    {id: 5, nombre: "Prolongador Multiple", tipo: "Extencion usb", cantidad: 1, desc: "Color blanco, se conecta con cable, 4 puertos USB 3.0 , 1 toma corriente plano triple. Nuevo en caja", precio: 650, talle: "", img:"../imagenes/imgElectro/prolongadorInova.jpeg", marca:"Inova"},
-    {id: 6, nombre: "Foco bolichero", tipo: "Lampara", cantidad: 1, desc: "proyecta luces de Colores, se conecta a rosca . Nuevo en caja", precio: 500, talle: "", img:"../imagenes/imgElectro/lamparaLuminosa.jpeg", marca:"Crosley"},
-    {id: 7, nombre: "Auriculares Wireless P47", tipo: "auricular bluetooth", cantidad: 1, desc: "Color negro, se conecta con cable, via bluetooth. se carga con mini USB. Nuevo en caja", precio: 1800, talle: "", img:"../imagenes/imgElectro/AuricularP47.jpeg", marca:"P47"},
-    {id: 8, nombre: "Termometro Digital", tipo: "digital", cantidad: 1, desc: "Color blanco, funciona a pilas. Nuevo en caja", precio: 500, talle: "", img:"../imagenes/imgElectro/termometroDigital.jpeg", marca:"China"},
-    {id: 9, nombre: "Parlante mini", tipo: "Parlante", cantidad: 1, desc: "Colores varios, se conecta con cable, via bluetooth. Nuevo en caja", precio: 500, talle: "", img:"../imagenes/imgElectro/paarlantesMini.jpeg", marca:"China"},
-    {id: 10, nombre: "Balanza de Precision", tipo: "Digital", cantidad: 1, desc: "Color Gris, se carga con cable mini usb. Nuevo en caja", precio: 2000, talle: "", img:"../imagenes/imgElectro/balanzaPrecision.jpeg", marca:"Shirka"},
-    {id: 11, nombre: "Laser larga distancia", tipo: "Led", cantidad: 1, desc: "Color negro, fnciona a pilas. Nuevo en caja", precio: 800, talle: "", img:"../imagenes/imgElectro/laser.jpeg", marca:"China"},
-    {id: 12, nombre: "Auriculares Y47", tipo: "Auricular", cantidad: 1, desc: "Color rosa, se conecta con cable, via Bluetooth. Se carga con mini usb. Nuevo en caja", precio: 2500, talle: "", img:"../imagenes/imgElectro/auricularesY47.jpeg", marca:"Y47"},
-    {id: 13, nombre: "Teclado weibo Luminoso", tipo: "kit luminoso", cantidad: 1, desc: "Kit gamer. Teclado y mouse luminosos. Teclado estatico y mouse retro Luminico. Nuevo en caja", precio: 4500, talle: "", img:"../imagenes/imgElectro/Teclado-Weibo.jpeg", marca:"Y47"}
+const arrayPrueba = [
+    {id: "", nombre: "simple", tipo: "sola", cantidad: 1, desc: "una sola carne", precio: 310, talle: "", img:"../imagenes/imgComestibles/Simple.jpeg", marca:"Altokee 15"},
+    {id: "", nombre: "Completa", tipo: "sola", cantidad: 1, desc: "Una Carne, Jamon, Queso, Huevo, Lechuga y tomate", precio: 350, talle: "", img:"../imagenes/imgComestibles/completa.jpg", marca:"Altokee15"},
+    {id: "", nombre: "cheddar 2x", tipo: "sola", cantidad: 1, desc: "", precio: 700, talle: "", img:"../imagenes/imgElectro/cableUSB.jpeg", marca:"Mobile"},
+    {id: "", nombre: "Cheddar 3x", tipo: "sola", cantidad: 1, desc: "", precio: 1500, talle: "", img:"../imagenes/imgElectro/cargadorApple.jpeg", marca:"Apple"},
+    {id: "", nombre: "Cheddar 4x", tipo: "sola", cantidad: 1, desc: "", precio: 650, talle: "", img:"../imagenes/imgElectro/prolongadorInova.jpeg", marca:"Inova"},
+    {id: "", nombre: "Combo Simple", tipo: "combo", cantidad: 1, desc: "", precio: 500, talle: "", img:"../imagenes/imgElectro/lamparaLuminosa.jpeg", marca:"Crosley"},
+    {id: "", nombre: "Combo Completa", tipo: "combo", cantidad: 1, desc: "", precio: 1800, talle: "", img:"../imagenes/imgElectro/AuricularP47.jpeg", marca:"P47"},
+    {id: "", nombre: "Combo 2x", tipo: "combo", cantidad: 1, desc: "", precio: 500, talle: "", img:"../imagenes/imgElectro/termometroDigital.jpeg", marca:"China"},
+    {id: "", nombre: "Combo 3x", tipo: "combo", cantidad: 1, desc: "", precio: 500, talle: "", img:"../imagenes/imgElectro/paarlantesMini.jpeg", marca:"China"},
+    {id: "", nombre: "Combo 4x", tipo: "combo", cantidad: 1, desc: "", precio: 2000, talle: "", img:"../imagenes/imgElectro/balanzaPrecision.jpeg", marca:"Shirka"},
+    {id: "", nombre: "combo simple + Bebida", tipo: "combo bebida", cantidad: 1, desc: "", precio: 800, talle: "", img:"../imagenes/imgElectro/laser.jpeg", marca:"China"},
+    {id: "", nombre: "Combo Completa + Bebida", tipo: "combo bebida", cantidad: 1, desc: "", precio: 2500, talle: "", img:"../imagenes/imgElectro/auricularesY47.jpeg", marca:"Y47"},
+    {id: "", nombre: "Combo 2x + bebida", tipo: "combo bebida", cantidad: 1, desc: "Kit gamer. Teclado y mouse luminosos. Teclado estatico y mouse retro Luminico. Nuevo en caja", precio: 4500, talle: "", img:"../imagenes/imgElectro/Teclado-Weibo.jpeg", marca:"Y47"},
+    {id: "", nombre: "Combo 3x + bebida", tipo: "combo bebida", cantidad: 1, desc: "Kit gamer. Teclado y mouse luminosos. Teclado estatico y mouse retro Luminico. Nuevo en caja", precio: 4500, talle: "", img:"../imagenes/imgElectro/Teclado-Weibo.jpeg", marca:"Y47"},
+    {id: "", nombre: "Combo 4x + bebida", tipo: "combo bebida", cantidad: 1, desc: "Kit gamer. Teclado y mouse luminosos. Teclado estatico y mouse retro Luminico. Nuevo en caja", precio: 4500, talle: "", img:"../imagenes/imgElectro/Teclado-Weibo.jpeg", marca:"Y47"},
+    {id: "", nombre: "Cono Papas", tipo: "comno", cantidad: 1, desc: "Kit gamer. Teclado y mouse luminosos. Teclado estatico y mouse retro Luminico. Nuevo en caja", precio: 4500, talle: "", img:"../imagenes/imgElectro/Teclado-Weibo.jpeg", marca:"Y47"},
+    {id: "", nombre: "Papas", tipo: "comida", cantidad: 1, desc: "Papas , Cheddar , Bacon , Perejil , Verdeo", precio: 511, talle: "", img:"../imagenes/imgComestibles/papas-altokee.jpg", marca:"Altokee15"},
+    {id: "", nombre: "Bandeja papas Chica", tipo: "comida", cantidad: 1, desc: "Papas", precio: 260, talle: "", img:"../imagenes/imgComestibles/papas-altokee.jpg", marca:"Altokee 15"},
+    {id: "", nombre: "Bandeja papas Grande", tipo: "comida", cantidad: 1, desc: "Papas", precio: 360, talle: "", img:"../imagenes/imgComestibles/papas-altokee.jpg", marca:"Altokee15"},
+    {id: "", nombre: "Salchipapas chico", tipo: "comida", cantidad: 1, desc: "Papas , salchicha , huevo y adheresos", precio: 360, talle: "", img:"../imagenes/imgComestibles/salchipapa.jpg", marca:"Altokee15"},
+    {id: "", nombre: "Salchipapas grande", tipo: "comida", cantidad: 1, desc: "Papas , salchicha , huevo y adheresos", precio: 411, talle: "", img:"../imagenes/imgComestibles/salchipapa.jpg", marca:"Altokee15"},
+    {id: "", nombre: "Papas @Altokee15", tipo: "comida", cantidad: 1, desc: "Papas , Cheddar , Bacon , Perejil , Verdeo", precio: 511, talle: "", img:"../imagenes/imgComestibles/papas-altokee.jpg", marca:"Altokee15"}
 ]
+
+
+for (let propiedad in arrayPrueba) {
+    console.log(propiedad)
+}
+
+console.log(Object.values(arrayPrueba))
+
+
+
+const productosComestibles = [
+    {id: 1, nombre: "simple", tipo: "sola", cantidad: 1, desc: "una sola carne", precio: 310, talle: "", img:"../imagenes/imgComestibles/Simple.jpeg", marca:"Altokee 15"},
+    {id: 2, nombre: "Completa", tipo: "sola", cantidad: 1, desc: "Una Carne, Jamon, Queso, Huevo, Lechuga y tomate", precio: 350, talle: "", img:"../imagenes/imgComestibles/completa.jpg", marca:"Altokee15"},
+    {id: 3, nombre: "cheddar 2x", tipo: "sola", cantidad: 1, desc: "", precio: 700, talle: "", img:"../imagenes/imgElectro/cableUSB.jpeg", marca:"Mobile"},
+    {id: 4, nombre: "Cheddar 3x", tipo: "sola", cantidad: 1, desc: "", precio: 1500, talle: "", img:"../imagenes/imgElectro/cargadorApple.jpeg", marca:"Apple"},
+    {id: 5, nombre: "Cheddar 4x", tipo: "sola", cantidad: 1, desc: "", precio: 650, talle: "", img:"../imagenes/imgElectro/prolongadorInova.jpeg", marca:"Inova"},
+    {id: 6, nombre: "Combo Simple", tipo: "combo", cantidad: 1, desc: "", precio: 500, talle: "", img:"../imagenes/imgElectro/lamparaLuminosa.jpeg", marca:"Crosley"},
+    {id: 7, nombre: "Combo Completa", tipo: "combo", cantidad: 1, desc: "", precio: 1800, talle: "", img:"../imagenes/imgElectro/AuricularP47.jpeg", marca:"P47"},
+    {id: 8, nombre: "Combo 2x", tipo: "combo", cantidad: 1, desc: "", precio: 500, talle: "", img:"../imagenes/imgElectro/termometroDigital.jpeg", marca:"China"},
+    {id: 9, nombre: "Combo 3x", tipo: "combo", cantidad: 1, desc: "", precio: 500, talle: "", img:"../imagenes/imgElectro/paarlantesMini.jpeg", marca:"China"},
+    {id: 10, nombre: "Combo 4x", tipo: "combo", cantidad: 1, desc: "", precio: 2000, talle: "", img:"../imagenes/imgElectro/balanzaPrecision.jpeg", marca:"Shirka"},
+    {id: 11, nombre: "combo simple + Bebida", tipo: "combo bebida", cantidad: 1, desc: "", precio: 800, talle: "", img:"../imagenes/imgElectro/laser.jpeg", marca:"China"},
+    {id: 12, nombre: "Combo Completa + Bebida", tipo: "combo bebida", cantidad: 1, desc: "", precio: 2500, talle: "", img:"../imagenes/imgElectro/auricularesY47.jpeg", marca:"Y47"},
+    {id: 13, nombre: "Combo 2x + bebida", tipo: "combo bebida", cantidad: 1, desc: "Kit gamer. Teclado y mouse luminosos. Teclado estatico y mouse retro Luminico. Nuevo en caja", precio: 4500, talle: "", img:"../imagenes/imgElectro/Teclado-Weibo.jpeg", marca:"Y47"},
+    {id: 14, nombre: "Combo 3x + bebida", tipo: "combo bebida", cantidad: 1, desc: "Kit gamer. Teclado y mouse luminosos. Teclado estatico y mouse retro Luminico. Nuevo en caja", precio: 4500, talle: "", img:"../imagenes/imgElectro/Teclado-Weibo.jpeg", marca:"Y47"},
+    {id: 15, nombre: "Combo 4x + bebida", tipo: "combo bebida", cantidad: 1, desc: "Kit gamer. Teclado y mouse luminosos. Teclado estatico y mouse retro Luminico. Nuevo en caja", precio: 4500, talle: "", img:"../imagenes/imgElectro/Teclado-Weibo.jpeg", marca:"Y47"},
+    {id: 16, nombre: "Cono Papas", tipo: "comno", cantidad: 1, desc: "Kit gamer. Teclado y mouse luminosos. Teclado estatico y mouse retro Luminico. Nuevo en caja", precio: 4500, talle: "", img:"../imagenes/imgElectro/Teclado-Weibo.jpeg", marca:"Y47"},
+    {id: 17, nombre: "Papas", tipo: "comida", cantidad: 1, desc: "Papas , Cheddar , Bacon , Perejil , Verdeo", precio: 511, talle: "", img:"../imagenes/imgComestibles/papas-altokee.jpg", marca:"Altokee15"},
+    {id: 18, nombre: "Bandeja papas Chica", tipo: "comida", cantidad: 1, desc: "Papas", precio: 260, talle: "", img:"../imagenes/imgComestibles/papas-altokee.jpg", marca:"Altokee 15"},
+    {id: 19, nombre: "Bandeja papas Grande", tipo: "comida", cantidad: 1, desc: "Papas", precio: 360, talle: "", img:"../imagenes/imgComestibles/papas-altokee.jpg", marca:"Altokee15"},
+    {id: 20, nombre: "Salchipapas chico", tipo: "comida", cantidad: 1, desc: "Papas , salchicha , huevo y adheresos", precio: 360, talle: "", img:"../imagenes/imgComestibles/salchipapa.jpg", marca:"Altokee15"},
+    {id: 21, nombre: "Salchipapas grande", tipo: "comida", cantidad: 1, desc: "Papas , salchicha , huevo y adheresos", precio: 411, talle: "", img:"../imagenes/imgComestibles/salchipapa.jpg", marca:"Altokee15"},
+    {id: 22, nombre: "Papas @Altokee15", tipo: "comida", cantidad: 1, desc: "Papas , Cheddar , Bacon , Perejil , Verdeo", precio: 511, talle: "", img:"../imagenes/imgComestibles/papas-altokee.jpg", marca:"Altokee15"}
+]
+

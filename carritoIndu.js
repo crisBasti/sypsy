@@ -53,9 +53,8 @@ productosIndu.forEach((producto)=> {
     <img src=${producto.img} alt="">
     <h3>${producto.nombre}</h3>
     <p>${producto.desc}</p>
-    <p> $: ${producto.precio}</p>
     <p class="precioProducto">Precio: $ ${producto.precio}</p>
-    <button id="agregar${producto.id}" class="boton-agregar">Agregar <i class="fas fa-shopping-cart"></i></button>
+    <button id="agregar${producto.id}" class="btn boton-agregar">Agregar <i class="fas fa-shopping-cart"></i></button>
     `
 
     container.appendChild(div);
@@ -116,7 +115,7 @@ pagarTotal.addEventListener('click', ()=>{
         <hr>
         <a href="https://www.mercadopago.com.ar/money-out/transfer/new-account">Transferencia</a>
         <hr>
-        <a href ="https://wa.me/5491128398324?text=Hola%20Quiero%20este%20producto/servicios%20total%20Productos:%20${carrito.length}%20${modalContainer.textContent}%20Precio%20Total:%20${precioTotal.textContent}%20">Arreglar el envio y el pago <br><i class="fa-brands fa-whatsapp"></i></a>`
+        <a href ="https://wa.me/5491128398324?text=Hola%20este%20es%20mi%20pedido%20:%20total%20Productos:%20${carrito.length}%20${modalContainer.textContent}%20Precio%20Total:%20${precioTotal.textContent}%20">Arreglar el envio y el pago <br><i class="fa-brands fa-whatsapp"></i></a>`
 
         modalContainer.appendChild(pagoQr)
 

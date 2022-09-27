@@ -74,17 +74,43 @@
           <button class="boton-carrito" id="boton-carrito"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span></button>
 
           <div class="exclusivo" id="exclusivo">
-            <div class="parrafo">
-              <p>Producto exclusivo de esta semana. aprobecha todos sus descuentos y beneficios</p>
+            <!-- <div class="parrafo">
+              <p>Producto exclusivo de esta semana. aprovecha todos sus descuentos y beneficios</p>
             </div>
             <div class="img-exclusivo" id="img-exclusivo">
               <img src="../imagenes/Logo_Atk15_ig.jpeg" alt="Producto Exclusivo" srcset="">
+            </div> -->
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="../imagenes/imgComestibles/cheddar-2x.jpg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="../imagenes/imgComestibles/combo4x+bebida.jpeg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="../imagenes/imgComestibles/completa.jpg" class="d-block" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
+
           </div>
 
-          <!-- <div class="cajaqr">
-            <img src="../imagenes/qrmercadopago.jpeg" alt="QR Pago" srcset="">
-          </div> -->
+
           
           <div class="cajaPrecios" id="cajaPrecios">
             <div class="carrito" id="carrito"></div>
@@ -113,6 +139,7 @@
         </main>
         <footer>
             <a href ="https://wa.me/5491128398324?text=Hola%20Quiero%20este%20producto/servicios">
+              <p>¿Queres trabajar repartiendo?</p>
               <i class="fa-brands fa-whatsapp"></i>
             </a>
             <div class="copyrigth">
