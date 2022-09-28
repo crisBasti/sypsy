@@ -182,9 +182,11 @@ header .navbar-expand-lg .navbar-nav .nav-link:hover {
   background-color: rgba(1, 208, 254, 0.168627451);
   margin-bottom: 20px;
 }
+.contenedor main .exclusivo .img__Productoexclusivo {
+  width: 45%;
+}
 .contenedor main .exclusivo .carousel {
   position: relative;
-  /* esto es del carrousel */
 }
 .contenedor main .exclusivo .carousel .img-exclusivo {
   min-width: 300px;
@@ -195,9 +197,6 @@ header .navbar-expand-lg .navbar-nav .nav-link:hover {
   background-color: white;
   border: 3px solid white;
   margin: 0 0 20px 0;
-}
-.contenedor main .exclusivo .carousel .img-exclusivo .img__Productoexclusivo {
-  width: 60%;
 }
 .contenedor main .exclusivo p {
   font-size: 2em;
@@ -297,14 +296,22 @@ header .navbar-expand-lg .navbar-nav .nav-link:hover {
   background-position: -150px -30px;
 }
 
+/* MEDIAS QUERY */
+@media screen and (max-width: 480px) {
+  .contenedor main .exclusivo .img__Productoexclusivo {
+    width: 100%;
+  }
+}
 footer {
   background: black;
   grid-area: footer;
   text-align: center;
   color: blue;
+}
+footer .enlaces {
+  justify-content: space-around;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  flex-wrap: wrap;
 }
 footer .fa-whatsapp {
   color: green;
@@ -312,5 +319,7 @@ footer .fa-whatsapp {
   height: 30px;
   font-size: 25px;
 }
+
+/* MEDIAS QUERY */
 
 /*# sourceMappingURL=index.css.map */

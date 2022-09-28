@@ -3,9 +3,12 @@ footer {
     grid-area: footer;
     text-align: center;
     color: blue;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    
+    .enlaces {
+        justify-content: space-around;
+        display: flex;
+        flex-wrap: wrap;
+    }
 
     .fa-whatsapp {
         color: green;

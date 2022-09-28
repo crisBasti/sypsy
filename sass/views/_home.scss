@@ -40,16 +40,13 @@
             // flex-wrap: wrap;
             margin-bottom: 20px;
 
+            .img__Productoexclusivo {
+                width: 45%
+            }
+
             .carousel {
                 position: relative;
                 // width: 70%;
-
-                /* esto es del carrousel */
-                .d-block {
-                // width: 90%;
-                // height: 350px;
-                // margin: 0 5%;
-                }
 
                 .img-exclusivo {
                     min-width: 300px;
@@ -60,10 +57,6 @@
                     background-color: white;
                     border: 3px solid white;
                     margin: 0 0 20px 0;
-
-                    .img__Productoexclusivo {
-                        width: 60%
-                    }
                 }
             }
 
@@ -183,6 +176,20 @@
                         background-image: url('../imagenes/articulosVarios.jpg');
                         background-position: -150px -30px;
                     }
+                }
+            }
+        }
+    }
+}
+
+/* MEDIAS QUERY */
+
+@media screen and (max-width: 480px){
+    .contenedor {
+        main {
+            .exclusivo {
+                .img__Productoexclusivo {
+                    width: 100%
                 }
             }
         }
