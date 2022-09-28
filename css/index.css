@@ -297,6 +297,11 @@ header .navbar-expand-lg .navbar-nav .nav-link:hover {
 }
 
 /* MEDIAS QUERY */
+@media screen and (max-width: 760px) {
+  .contenedor main .exclusivo .img__Productoexclusivo {
+    width: 70%;
+  }
+}
 @media screen and (max-width: 480px) {
   .contenedor main .exclusivo .img__Productoexclusivo {
     width: 100%;
@@ -319,7 +324,5 @@ footer .fa-whatsapp {
   height: 30px;
   font-size: 25px;
 }
-
-/* MEDIAS QUERY */
 
 /*# sourceMappingURL=index.css.map */
