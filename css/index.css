@@ -305,18 +305,18 @@ header .navbar-expand-lg .navbar-nav .nav-link:hover {
   .contenedor main .exclusivo .img__Productoexclusivo {
     width: 70%;
   }
-  .contenedor main .exclusivo .d-block {
+  .contenedor main .exclusivo .carousel .d-block {
     margin: auto;
-    width: 70%;
+    width: 100%;
   }
 }
 @media screen and (max-width: 480px) {
   .contenedor main .exclusivo .img__Productoexclusivo {
     width: 100%;
   }
-  .contenedor main .exclusivo .d-block {
+  .contenedor main .exclusivo .carousel .d-block {
     margin: auto;
-    width: 70%;
+    width: 100%;
   }
 }
 footer {
