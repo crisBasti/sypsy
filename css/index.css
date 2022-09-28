@@ -198,6 +198,10 @@ header .navbar-expand-lg .navbar-nav .nav-link:hover {
   border: 3px solid white;
   margin: 0 0 20px 0;
 }
+.contenedor main .exclusivo .carousel .d-block {
+  margin: auto;
+  width: 70%;
+}
 .contenedor main .exclusivo p {
   font-size: 2em;
 }
@@ -301,10 +305,18 @@ header .navbar-expand-lg .navbar-nav .nav-link:hover {
   .contenedor main .exclusivo .img__Productoexclusivo {
     width: 70%;
   }
+  .contenedor main .exclusivo .d-block {
+    margin: auto;
+    width: 70%;
+  }
 }
 @media screen and (max-width: 480px) {
   .contenedor main .exclusivo .img__Productoexclusivo {
     width: 100%;
+  }
+  .contenedor main .exclusivo .d-block {
+    margin: auto;
+    width: 70%;
   }
 }
 footer {
