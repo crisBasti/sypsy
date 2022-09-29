@@ -54,7 +54,7 @@ productosComestibles.forEach((producto)=> {
     <h3>${producto.nombre}</h3>
     <p>${producto.desc}</p>
     <p class="precioProducto">Precio: $ ${producto.precio}</p>
-    <button id="agregar${producto.id}" class="boton-agregar">Agregar <i class="fas fa-shopping-cart"></i></button>
+    <button id="agregar${producto.id}" class="btn boton-agregar">Agregar <i class="fas fa-shopping-cart"></i></button>
     `
 
     container.appendChild(div);
@@ -66,8 +66,16 @@ productosComestibles.forEach((producto)=> {
         document.getElementById('vaciar-carrito').style.display = 'block';
         document.getElementById('precioProducto').style.display = 'block';
         document.getElementById('pagarTotal').style.display = 'block';
+      
+        msgAgregado();
     })
 })
+
+const msgAgregado = function () {
+    setTimeout(() => {
+        alert('Agregado')
+    }, 500);
+}
 
 const agregarAlCarrito = (prodId) => {
     const item = productosComestibles.find((prod) => prod.id === prodId)

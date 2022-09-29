@@ -66,8 +66,16 @@ productosIndu.forEach((producto)=> {
         document.getElementById('vaciar-carrito').style.display = 'block';
         document.getElementById('precioProducto').style.display = 'block';
         document.getElementById('pagarTotal').style.display = 'block';
+
+        msgAgregado();
     })
 })
+
+const msgAgregado = function () {
+    setTimeout(() => {
+        alert('Agregado')
+    }, 500);
+}
 
 const agregarAlCarrito = (prodId) => {
     const item = productosIndu.find((prod) => prod.id === prodId)
