@@ -10,6 +10,17 @@ body {
   background-color: #e3f2fd;
 }
 
+@keyframes rapido {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 50% 70%;
+  }
+  100% {
+    background-position: 70% 100%;
+  }
+}
 header {
   grid-area: header;
   background: black;
@@ -236,6 +247,15 @@ header .navbar-expand-lg .navbar-nav .nav-link:hover {
   width: 50%;
   font-size: 1.5em;
 }
+.contenedor main .container .presentacion .texto .entregaInmediata {
+  background: linear-gradient(45deg, yellow, orange, red);
+  color: linear-gradient(red, orange);
+  animation: rapido 5s ease infinite;
+}
+.contenedor main .container .presentacion .texto .entregaPautada {
+  background: linear-gradient(45deg, rgb(38, 0, 255), rgb(0, 132, 255), rgb(0, 221, 255));
+  color: rgb(0, 0, 0);
+}
 .contenedor main .container .card {
   min-width: 200px;
   min-height: 300px;
@@ -302,6 +322,9 @@ header .navbar-expand-lg .navbar-nav .nav-link:hover {
 
 /* MEDIAS QUERY */
 @media screen and (max-width: 760px) {
+  .contenedor main .container .presentacion .texto {
+    width: 100%;
+  }
   .contenedor main .exclusivo .img__Productoexclusivo {
     width: 70%;
   }
@@ -311,6 +334,9 @@ header .navbar-expand-lg .navbar-nav .nav-link:hover {
   }
 }
 @media screen and (max-width: 480px) {
+  .contenedor main .container .presentacion .texto {
+    width: 100%;
+  }
   .contenedor main .exclusivo .img__Productoexclusivo {
     width: 100%;
   }
