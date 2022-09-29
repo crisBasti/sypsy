@@ -199,16 +199,6 @@ header .navbar-expand-lg .navbar-nav .nav-link:hover {
 .contenedor main .exclusivo .carousel {
   position: relative;
 }
-.contenedor main .exclusivo .carousel .img-exclusivo {
-  min-width: 300px;
-  min-height: 300px;
-  width: 60%;
-  height: fit-content;
-  margin: auto;
-  background-color: white;
-  border: 3px solid white;
-  margin: 0 0 20px 0;
-}
 .contenedor main .exclusivo .carousel .d-block {
   margin: auto;
   width: 70%;
@@ -319,6 +309,13 @@ header .navbar-expand-lg .navbar-nav .nav-link:hover {
   background-image: url("../imagenes/articulosVarios.jpg");
   background-position: -150px -30px;
 }
+.contenedor main .marcas__asociadas .carousel {
+  position: relative;
+}
+.contenedor main .marcas__asociadas .carousel .d-block {
+  margin: auto;
+  width: 70%;
+}
 
 /* MEDIAS QUERY */
 @media screen and (max-width: 760px) {
@@ -332,6 +329,13 @@ header .navbar-expand-lg .navbar-nav .nav-link:hover {
     margin: auto;
     width: 100%;
   }
+  .contenedor main .marcas__asociadas .carousel {
+    position: relative;
+  }
+  .contenedor main .marcas__asociadas .carousel .d-block {
+    margin: auto;
+    width: 100%;
+  }
 }
 @media screen and (max-width: 480px) {
   .contenedor main .container .presentacion .texto {
@@ -341,6 +345,13 @@ header .navbar-expand-lg .navbar-nav .nav-link:hover {
     width: 100%;
   }
   .contenedor main .exclusivo .carousel .d-block {
+    margin: auto;
+    width: 100%;
+  }
+  .contenedor main .marcas__asociadas .carousel {
+    position: relative;
+  }
+  .contenedor main .marcas__asociadas .carousel .d-block {
     margin: auto;
     width: 100%;
   }

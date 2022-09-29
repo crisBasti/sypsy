@@ -3,7 +3,10 @@ const productosVarios = [
     {id: 2, nombre: "15 metros de caño de cobre 1/2", tipo: "Para Refrigeracion", cantidad: 1, desc: "Caño de 1/2 para instalacion de aire acondicionado. Nuevo en caja", precio: 28000, talle: "", img:"../imagenes/imgVarios/caño_bronce_varias_medidas.jpg", marca:""},
     {id: 3, nombre: "15 metros de caño de cobre 3/8", tipo: "Para Refrigeracion", cantidad: 1, desc: "Caño de 3/8 para instalacion de aire acondicionado. Nuevo", precio: 23000, talle: "", img:"../imagenes/imgVarios/caño_bronce_varias_medidas.jpg", marca:""},
     {id: 4, nombre: "kit Instalacion aire acondicionado", tipo: "kit para instalacion hasta 4500 fr", cantidad: 1, desc: "3mts caño , aislante, cinta, mensulas, patitas de goma, tornillos, tarugos, manguera de cristal, cable. Nuevo", precio: 18500, talle: "", img:"../imagenes/imgVarios/kit_instalacion_hasta_4500fr.jpeg", marca:""},
-    {id: 6, nombre: "Teclado weibo Luminoso", tipo: "kit luminoso", cantidad: 1, desc: "Kit gamer. Teclado y mouse luminosos. Teclado estatico y mouse retro Luminico. Nuevo en caja", precio: 4500, talle: "", img:"../imagenes/imgElectro/Teclado-Weibo.jpeg", marca:"Y47"}
+    {id: 6, nombre: "Teclado weibo Luminoso", tipo: "kit luminoso", cantidad: 1, desc: "Kit gamer. Teclado y mouse luminosos. Teclado estatico y mouse retro Luminico. Nuevo en caja", precio: 4500, talle: "", img:"../imagenes/imgElectro/Teclado-Weibo.jpeg", marca:"Y47"},
+    {id: 7, nombre: "Sarten Cucina Donna", tipo: "varios", cantidad: 1, desc: "Sarten Cucina Donna 24cm . Nueva en caja", precio: 10000, talle: "", img:"../imagenes/imgVarios/sarten_cucina_donna_frente.jpeg", marca:"Sarten Cucina Donna"},
+    {id: 8, nombre: "Combo de 3 Pur", tipo: "varios", cantidad: 1, desc: "Perfume , Desodorante , Crema para manos. Nueva", precio: 2500, talle: "", img:"../imagenes/imgVarios/combo_de_3_pur_blanca.jpeg", marca:"Sarten Cucina Donna"}
+
 ]
 
 

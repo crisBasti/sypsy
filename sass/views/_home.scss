@@ -19,7 +19,6 @@
         margin-bottom: 20px;
 
         img {
-            // width: 100%;
             height: 300px;
         }
 
@@ -34,10 +33,6 @@
             width: 100%;
             height: fit-content;
             background-color: #01d0fe2b;
-            // display: flex;
-            // justify-content: space-around;
-            // align-items: center;
-            // flex-wrap: wrap;
             margin-bottom: 20px;
 
             .img__Productoexclusivo {
@@ -46,18 +41,6 @@
 
             .carousel {
                 position: relative;
-                // width: 70%;
-
-                .img-exclusivo {
-                    min-width: 300px;
-                    min-height: 300px;
-                    width: 60%;
-                    height: fit-content;
-                    margin: auto;
-                    background-color: white;
-                    border: 3px solid white;
-                    margin: 0 0 20px 0;
-                }
 
                 .d-block {
                     margin: auto;
@@ -196,6 +179,18 @@
                 }
             }
         }
+
+        .marcas__asociadas {
+            .carousel {
+                position: relative;
+
+                .d-block {
+                    margin: auto;
+                    width: 70%;
+                }
+            }
+        }
+
     }
 }
 
@@ -217,6 +212,17 @@
                 }
 
                 .carousel {
+                    .d-block {
+                        margin: auto;
+                        width: 100%;
+                    }
+                }
+            }
+
+            .marcas__asociadas {
+                .carousel {
+                    position: relative;
+    
                     .d-block {
                         margin: auto;
                         width: 100%;
@@ -251,6 +257,17 @@
                     }
                 }
                 
+            }
+
+            .marcas__asociadas {
+                .carousel {
+                    position: relative;
+    
+                    .d-block {
+                        margin: auto;
+                        width: 100%;
+                    }
+                }
             }
         }
     }
