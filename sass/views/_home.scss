@@ -124,6 +124,15 @@
                     background-color: blue;
                     color: $secondary;
                 }
+
+                .__contactar {
+                    text-decoration: none;
+                }
+
+                .__contactar:hover {
+                    color: $secondary;
+                    
+                }
             }
         }
 
