@@ -54,6 +54,16 @@ const productosComestibles = [
     {id: 19, nombre: "Salchipapas chico", tipo: "comida", cantidad: 1, desc: "Papas , salchicha , huevo y adheresos", precio: 360, talle: "", img:"../imagenes/imgComestibles/salchipapa.jpg", marca:"Altokee15"},
     {id: 20, nombre: "Salchipapas grande", tipo: "comida", cantidad: 1, desc: "Papas , salchicha , huevo y adheresos", precio: 411, talle: "", img:"../imagenes/imgComestibles/salchipapa.jpg", marca:"Altokee15"},
     {id: 21, nombre: "Papas @Altokee15", tipo: "comida", cantidad: 1, desc: "Papas , Cheddar , Bacon , Perejil , Verdeo", precio: 511, talle: "", img:"../imagenes/imgComestibles/papas-altokee.jpg", marca:"Altokee15"},
-    {id: 21, nombre: "Caja de Papas", tipo: "comida", cantidad: 1, desc: "Caja de Papas", precio: 550, talle: "", img:"../imagenes/imgComestibles/Caja_De_Papas_Adicional.jpeg", marca:"Altokee15"}
+    {id: 22, nombre: "Caja de Papas", tipo: "comida", cantidad: 1, desc: "Caja de Papas", precio: 550, talle: "", img:"../imagenes/imgComestibles/Caja_De_Papas_Adicional.jpeg", marca:"Altokee15"},
+    {id: 23, nombre: "Tortas Por Pedido", tipo: "Tortas", cantidad: 1, desc: "Tortas por pedido , distintos tamaños, y decorados", precio: 2800, talle: "", img:"../imagenes/imgComestibles/cuatro_tortas.jpeg", marca:"El Clan de las Donas"},
+    {id: 24, nombre: "Porcion de torta", tipo: "comida", cantidad: 1, desc: "Porcion de torta de chocolte con mousse de chocolate", precio: 350, talle: "", img:"../imagenes/imgComestibles/frutilla_chocolate.jpeg", marca:"El Clan de las Donas"},
+    {id: 25, nombre: "Porcion de torta", tipo: "comida", cantidad: 1, desc: "Porcion de torta sabor vainilla", precio: 350, talle: "", img:"../imagenes/imgComestibles/frutilla_vainilla.jpeg", marca:"El Clan de las Donas"},
+    {id: 26, nombre: "Tortas Por pedido y por porcion", tipo: "comida", cantidad: 1, desc: "Se hacen tortas por pedido. Tortas Personalizadas", precio: 2800, talle: "", img:"../imagenes/imgComestibles/mediaTorta.jpeg", marca:"El Clan de las Donas"},
+    {id: 27, nombre: "Pastafrolas Por pedido", tipo: "comida", cantidad: 1, desc: "Las Mas ricas pastafrolas Caseras", precio: 950, talle: "", img:"../imagenes/imgComestibles/pastafrolas_cafe.jpeg", marca:"Altokee15"},
+    {id: 28, nombre: "Selva Negra", tipo: "comida", cantidad: 1, desc: "Torta Selva negra Por pedido", precio: 2800, talle: "", img:"../imagenes/imgComestibles/selvaNegra.jpeg", marca:"Altokee15"},
+    {id: 29, nombre: "Torta de Chocolate", tipo: "comida", cantidad: 1, desc: "Torta decorada de Chocolate", precio: 2800, talle: "", img:"../imagenes/imgComestibles/torta_choco.jpeg", marca:"Altokee15"},
+    {id: 30, nombre: "Torta de Durazno", tipo: "comida", cantidad: 1, desc: "Torta decorada con crema y durazno", precio: 2800, talle: "", img:"../imagenes/imgComestibles/tortaDurazno.jpeg", marca:"El Clan de las Donas"},
+    {id: 31, nombre: "Torta Rocklers", tipo: "comida", cantidad: 1, desc: "Torta decorada con crema y detalles de rockers. Por pedido", precio: 2800, talle: "", img:"../imagenes/imgComestibles/tortaRocklets.jpeg", marca:"El Clan de las Donas"},
+    {id: 32, nombre: "Postrecitos surtidos", tipo: "comida", cantidad: 1, desc: "Postrecitos sabor frutilla, chocotorta y oreo", precio: 420, talle: "", img:"../imagenes/imgComestibles/postres_surtidos.jpeg", marca:"Altokee15"}
 ]
 
