@@ -54,6 +54,24 @@
             
         }
 
+        .section__nosotros{
+            width: 90%;
+            height: 100%;
+            margin: 30px 0;
+            
+
+            .articulo__nosotros {
+                display: flex;
+                // flex-wrap: wrap;
+                gap: 20px 20px;
+
+                .img_ayuda {
+                    min-width: 230px;
+                    width: 50%;
+                }
+            }
+        }
+
         .container {
             display: flex;
             flex-flow: wrap;
@@ -205,6 +223,26 @@
 
 /* MEDIAS QUERY */
 
+// @media screen and (max-width: 1044px){
+//     .contenedor {
+//         main {
+
+//             .section__nosotros{
+
+//                 .articulo__nosotros {
+//                     display: flex;
+//                     flex-wrap: nowrap;
+    
+//                     .img_ayuda {
+//                         min-width: 230px;
+//                         width: 90%;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
 @media screen and (max-width: 760px){
     .contenedor {
         main {
@@ -223,6 +261,19 @@
                 .carousel {
                     .d-block {
                         margin: auto;
+                        width: 100%;
+                    }
+                }
+            }
+
+            .section__nosotros{
+
+                .articulo__nosotros {
+                    display: flex;
+                    flex-wrap: wrap;
+    
+                    .img_ayuda {
+                        min-width: 230px;
                         width: 100%;
                     }
                 }
@@ -266,6 +317,19 @@
                     }
                 }
                 
+            }
+
+            .section__nosotros{
+
+                flex-wrap: nowrap;
+
+                .articulo__nosotros {
+    
+                    .img_ayuda {
+                        min-width: 230px;
+                        width: 100%;
+                    }
+                }
             }
 
             .marcas__asociadas {

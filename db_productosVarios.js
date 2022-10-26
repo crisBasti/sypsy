@@ -11,7 +11,7 @@ const productosVarios = [
     {id: 11, nombre: "Cama 1 plaza", tipo: "mueble", cantidad: 1, desc: "Cama color rosa . Usada. 1 Plaza", precio: 5000, talle: "", img:"../imagenes/imgVarios/camaRosada.jpeg", marca:"Alelux"},
     {id: 12, nombre: "Puertas Persiana", tipo: "Puertas", cantidad: 6, desc: "Puertas persiana de madera, son 3 pares de puertas . Usadas. medidas : 63cm x 207 Mts. El precio es por las 6", precio: 20000, talle: "", img:"../imagenes/imgVarios/puertasPercianas.jpeg", marca:"Alelux"},
     {id: 13, nombre: "Comoda Cajonera", tipo: "Mueble", cantidad: 1, desc: "Comoda cajonera, con vidrio arriba. Manijas de Bronce", precio: 15000, talle: "", img:"../imagenes/imgVarios/comodaCajonera.jpeg", marca:"Alelux"},
-    {id: 14, nombre: "Ropero", tipo: "Mueble", cantidad: 1, desc: "Ropero 3 Cuerpos. Con Puerta espejo. Usado", precio: 45000, talle: "", img:"../imagenes/imgVarios/RoperoNarnia.jpeg", marca:"Alelux"},
+    {id: 14, nombre: "Ropero", tipo: "Mueble", cantidad: 1, desc: "Ropero 3 Cuerpos. Con Puerta espejo. Usado", precio: 36000, talle: "", img:"../imagenes/imgVarios/RoperoNarnia.jpeg", marca:"Alelux"},
     {id: 15, nombre: "Mueble Esquinero", tipo: "Mueble", cantidad: 1, desc: "Mueble esquinero, de madera, Puerta rebatible. Usado", precio: 12000, talle: "", img:"../imagenes/imgVarios/muebleEsquinero.jpeg", marca:"Alelux"},
     {id: 16, nombre: "Cartel de Neon", tipo: "Cartel", cantidad: 1, desc: "Realizado en Neon, Para Cliente que Cancelo pedido. Nuevo. El precio es con instalacion incluida", precio: 25000, talle: "", img:"../imagenes/imgVarios/cartelModista.jpeg", marca:"Alelux"}
 ]

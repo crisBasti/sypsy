@@ -7,13 +7,13 @@ const productosElectro = [
     {id: 6, nombre: "Split tipo mural cooltime BGH Inverter 4500 fr", tipo: "Inverter", cantidad: 1, desc: "Nuevo", precio: 231000, talle: "", img:"../imagenes/imgElectro/cooltime_bgh_inverter_4500fr.png", marca:"BGH"},
     {id: 7, nombre: "Split tipo mural cooltime BGH Inverter 5500 fr", tipo: "Inverter", cantidad: 1, desc: "Nuevo", precio: 271000, talle: "", img:"../imagenes/imgElectro/cooltime_bgh_inverter_4500fr.png", marca:"Y47"},
     {id: 8, nombre: "Teclado weibo Luminoso", tipo: "kit luminoso", cantidad: 1, desc: "Kit gamer. Teclado y mouse luminosos. Teclado estatico y mouse retro Luminico. Nuevo en caja", precio: 4500, talle: "", img:"../imagenes/imgElectro/Teclado-Weibo.jpeg", marca:"Weibo"},
-    {id: 9, nombre: "Web cam 4k hd PC BOX", tipo: "Electro", cantidad: 1, desc: "webcam pcbox call pcb cw4k .Nuevo en caja", precio: 8000, talle: "", img:"https://http2.mlstatic.com/D_NQ_NP_905524-MLA51089627658_082022-O.jpg", marca:"PCBOX"},
-    {id: 10, nombre: "Heladera", tipo: "Electro", cantidad: 1, desc: "Funcionando todo en Perfecto estado. Usado", precio: 30000, talle: "", img:"../imagenes/imgElectro/HeladeraDonA.jpeg", marca:"Alelux"}
+    {id: 9, nombre: "Heladera", tipo: "Electro", cantidad: 1, desc: "Funcionando todo en Perfecto estado. Usado", precio: 30000, talle: "", img:"../imagenes/imgElectro/HeladeraDonA.jpeg", marca:"Alelux"}
 ];
 
 
 
 //     productos sacados de la base de datos Elecro
+//     {id: 9, nombre: "Web cam 4k hd PC BOX", tipo: "Electro", cantidad: 1, desc: "webcam pcbox call pcb cw4k .Nuevo en caja", precio: 8000, talle: "", img:"https://http2.mlstatic.com/D_NQ_NP_905524-MLA51089627658_082022-O.jpg", marca:"PCBOX"},
 //     {id: 9, nombre: "Planchita ATMA", tipo: "Electro", cantidad: 1, desc: "Planchita para el pelo .Nuevo en caja", precio: 8000, talle: "", img:"../imagenes/imgElectro/planchita_de_pelo_atma_perfil.jpeg", marca:"ATMA"},
 //     {id: 9, nombre: "Cargador 4.2A", tipo: "cargador", cantidad: 1, desc: "Color blanco, se conecta con cable usb extraible, Nuevo en caja", precio: 1200, talle: "", img:"../imagenes/imgElectro/cargador-inova.jpeg", marca:"Inova"},
 //     {id: 10, nombre: "Cable usb Negro", tipo: "USB", cantidad: 1, desc: "Color negro, aproximadamente 1 metro. Nuevo en caja", precio: 700, talle: "", img:"../imagenes/imgElectro/cableUSB.jpeg", marca:"Mobile"},
