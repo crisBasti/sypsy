@@ -48,7 +48,11 @@ botonVaciar.addEventListener('click', ()=>{
 
 productosComestibles.forEach((producto)=> {
     const div = document.createElement('div');
-    div.classList.add('card')
+    // const btnVer = document.createElement('button');
+    // btnVer.classList.add('btn');
+    // btnVer.value.add('Ver');
+    // div.innerHTML = btnVer;
+    div.classList.add('card');
     div.innerHTML = `
     <img src=${producto.img} alt="">
     <h3>${producto.nombre}</h3>

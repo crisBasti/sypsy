@@ -64,6 +64,7 @@ const productosComestibles = [
     {id: 29, nombre: "Torta de Chocolate", tipo: "comida", cantidad: 1, desc: "Torta decorada de Chocolate", precio: 2800, talle: "", img:"../imagenes/imgComestibles/torta_choco.jpeg", marca:"Altokee15"},
     {id: 30, nombre: "Torta de Durazno", tipo: "comida", cantidad: 1, desc: "Torta decorada con crema y durazno", precio: 2800, talle: "", img:"../imagenes/imgComestibles/tortaDurazno.jpeg", marca:"El Clan de las Donas"},
     {id: 31, nombre: "Torta Rocklers", tipo: "comida", cantidad: 1, desc: "Torta decorada con crema y detalles de rockers. Por pedido", precio: 2800, talle: "", img:"../imagenes/imgComestibles/tortaRocklets.jpeg", marca:"El Clan de las Donas"},
-    {id: 32, nombre: "Postrecitos surtidos", tipo: "comida", cantidad: 1, desc: "Postrecitos sabor frutilla, chocotorta y oreo", precio: 420, talle: "", img:"../imagenes/imgComestibles/postres_surtidos.jpeg", marca:"Altokee15"}
+    {id: 32, nombre: "Postrecitos surtidos", tipo: "comida", cantidad: 1, desc: "Postrecitos sabor frutilla, chocotorta y oreo", precio: 420, talle: "", img:"../imagenes/imgComestibles/postres_surtidos.jpeg", marca:"Altokee15"},
+    {id: 33, nombre: "Empanadas Al estilo Tucumano", tipo: "comida", cantidad: 1, desc: "Las mas ricas empanadas al estilo tucumano. Sabores : -Carne cortada a cuchillo. -Pollo. -Matambre. -Mondongo . Fritas. la Docena $1500", precio: 1500, talle: "", img:"../imagenes/imgComestibles/empanadasFritasLa28.jpeg", marca:"Minutas La 28"},
+    {id: 34, nombre: "Sandwich Mila", tipo: "comida", cantidad: 1, desc: "El mas rico sandwich al Estilo Tucumano. Carne y Pollo. Lechuga y tomate", precio: 650, talle: "", img:"../imagenes/imgComestibles/sandwichMilaCarneLa28.jpeg", marca:"Minutas La 28"}
 ]
-

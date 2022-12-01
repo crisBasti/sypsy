@@ -7,17 +7,17 @@ const productosElectro = [
     {id: 6, nombre: "Split tipo mural cooltime BGH Inverter 4500 fr", tipo: "Inverter", cantidad: 1, desc: "Nuevo", precio: 231000, talle: "", img:"../imagenes/imgElectro/cooltime_bgh_inverter_4500fr.png", marca:"BGH"},
     {id: 7, nombre: "Split tipo mural cooltime BGH Inverter 5500 fr", tipo: "Inverter", cantidad: 1, desc: "Nuevo", precio: 271000, talle: "", img:"../imagenes/imgElectro/cooltime_bgh_inverter_4500fr.png", marca:"Y47"},
     {id: 8, nombre: "Teclado weibo Luminoso", tipo: "kit luminoso", cantidad: 1, desc: "Kit gamer. Teclado y mouse luminosos. Teclado estatico y mouse retro Luminico. Nuevo en caja", precio: 4500, talle: "", img:"../imagenes/imgElectro/Teclado-Weibo.jpeg", marca:"Weibo"},
-    {id: 9, nombre: "Heladera", tipo: "Electro", cantidad: 1, desc: "Funcionando todo en Perfecto estado. Usado", precio: 30000, talle: "", img:"../imagenes/imgElectro/HeladeraDonA.jpeg", marca:"Alelux"}
-];
+    {id: 9, nombre: "Heladera", tipo: "Electro", cantidad: 1, desc: "Funcionando todo en Perfecto estado. Usado", precio: 30000, talle: "", img:"../imagenes/imgElectro/HeladeraDonA.jpeg", marca:"Alelux"},
+    {id: 10, nombre: "Samsung Galaxy A32", tipo: "Celular", cantidad: 1, desc: "Poco uso . Esta como nuevo . Liberado de fabrica.", precio: 45000, talle: "", img:"../imagenes/imgElectro/galaxyA32.jpeg", marca:"Samsung"},
+    {id: 11, nombre: "Combo Potencia Parlantes", tipo: "Electro", cantidad: 1, desc: "Potencia mas Parlantes. Nuevo. Precio de contado", precio: 100000, talle: "", img:"../imagenes/imgElectro/combo-potencia-parlantes.jpeg", marca:"Yessi"},
+    {id: 12, nombre: "Combo Potencia Parlantes Dobles", tipo: "Electro", cantidad: 1, desc: "Potencia mas Parlantes. Nuevo. Precio de contado", precio: 126000, talle: "", img:"../imagenes/imgElectro/combo-potencia-parlantesdobles.jpeg", marca:"Yessi"},
+    {id: 13, nombre: "Lavarropas + Secarropas", tipo: "Electro", cantidad: 1, desc: "Lavarropas CODINI 10 KG. + Secarropas CODINI 6,5 kg. NUEVOS. Precio Contado", precio: 49900, talle: "", img:"../imagenes/imgElectro/combo-lavasecarropas.jpeg", marca:"Yessi"},
+    {id: 14, nombre: "Heladera Batea Exibidora", tipo: "Electro", cantidad: 1, desc: "Heladera Batea Exibidora, frente de vidrio, Nueva. Precio de Contado", precio: 396480, talle: "", img:"../imagenes/imgElectro/exibidora-carniceria.jpeg", marca:"Apple"}
+]
 
 
 
 //     productos sacados de la base de datos Elecro
-//     {id: 9, nombre: "Web cam 4k hd PC BOX", tipo: "Electro", cantidad: 1, desc: "webcam pcbox call pcb cw4k .Nuevo en caja", precio: 8000, talle: "", img:"https://http2.mlstatic.com/D_NQ_NP_905524-MLA51089627658_082022-O.jpg", marca:"PCBOX"},
-//     {id: 9, nombre: "Planchita ATMA", tipo: "Electro", cantidad: 1, desc: "Planchita para el pelo .Nuevo en caja", precio: 8000, talle: "", img:"../imagenes/imgElectro/planchita_de_pelo_atma_perfil.jpeg", marca:"ATMA"},
-//     {id: 9, nombre: "Cargador 4.2A", tipo: "cargador", cantidad: 1, desc: "Color blanco, se conecta con cable usb extraible, Nuevo en caja", precio: 1200, talle: "", img:"../imagenes/imgElectro/cargador-inova.jpeg", marca:"Inova"},
-//     {id: 10, nombre: "Cable usb Negro", tipo: "USB", cantidad: 1, desc: "Color negro, aproximadamente 1 metro. Nuevo en caja", precio: 700, talle: "", img:"../imagenes/imgElectro/cableUSB.jpeg", marca:"Mobile"},
-//     {id: 11, nombre: "Cargador para Iphone", tipo: "Cargador", cantidad: 1, desc: "Color blanco, se conecta con cable USB extraible. Nuevo en caja", precio: 1500, talle: "", img:"../imagenes/imgElectro/cargadorApple.jpeg", marca:"Apple"},
 //     {id: 12, nombre: "Prolongador Multiple", tipo: "Extencion usb", cantidad: 1, desc: "Color blanco, se conecta con cable, 4 puertos USB 3.0 , 1 toma corriente plano triple. Nuevo en caja", precio: 650, talle: "", img:"../imagenes/imgElectro/prolongadorInova.jpeg", marca:"Inova"},
 //     {id: 13, nombre: "Foco bolichero", tipo: "Lampara", cantidad: 1, desc: "proyecta luces de Colores, se conecta a rosca . Nuevo en caja", precio: 500, talle: "", img:"../imagenes/imgElectro/lamparaLuminosa.jpeg", marca:"Crosley"},
 //     {id: 14, nombre: "Auriculares Wireless P47", tipo: "auricular bluetooth", cantidad: 1, desc: "Color negro, se conecta con cable, via bluetooth. se carga con mini USB. Nuevo en caja", precio: 1800, talle: "", img:"../imagenes/imgElectro/AuricularP47.jpeg", marca:"P47"},

@@ -13,8 +13,6 @@ const productosVarios = [
     {id: 13, nombre: "Comoda Cajonera", tipo: "Mueble", cantidad: 1, desc: "Comoda cajonera, con vidrio arriba. Manijas de Bronce", precio: 15000, talle: "", img:"../imagenes/imgVarios/comodaCajonera.jpeg", marca:"Alelux"},
     {id: 14, nombre: "Ropero", tipo: "Mueble", cantidad: 1, desc: "Ropero 3 Cuerpos. Con Puerta espejo. Usado", precio: 36000, talle: "", img:"../imagenes/imgVarios/RoperoNarnia.jpeg", marca:"Alelux"},
     {id: 15, nombre: "Mueble Esquinero", tipo: "Mueble", cantidad: 1, desc: "Mueble esquinero, de madera, Puerta rebatible. Usado", precio: 12000, talle: "", img:"../imagenes/imgVarios/muebleEsquinero.jpeg", marca:"Alelux"},
-    {id: 16, nombre: "Cartel de Neon", tipo: "Cartel", cantidad: 1, desc: "Realizado en Neon, Para Cliente que Cancelo pedido. Nuevo. El precio es con instalacion incluida", precio: 25000, talle: "", img:"../imagenes/imgVarios/cartelModista.jpeg", marca:"Alelux"}
+    {id: 16, nombre: "Cartel de Neon", tipo: "Cartel", cantidad: 1, desc: "Realizado en Neon, Para Cliente que Cancelo pedido. Nuevo. El precio es con instalacion incluida", precio: 25000, talle: "", img:"../imagenes/imgVarios/cartelModista.jpeg", marca:"Alelux"},
+    {id: 17, nombre: "Rueda Goodyear", tipo: "varios", cantidad: 1, desc: "Rueda Nueva Goodyear Medidas: 195/55R15. cantidad : 1", precio: 60000, talle: "195/55R15", img:"../imagenes/imgVarios/llantaRueda.jpeg", marca:"Goodyear"}
 ]
-
-
-//  {id: 7, nombre: "Sarten Cucina Donna", tipo: "varios", cantidad: 1, desc: "Sarten Cucina Donna 24cm . Nueva en caja", precio: 10000, talle: "", img:"../imagenes/imgVarios/sarten_cucina_donna_frente.jpeg", marca:"Sarten Cucina Donna"},
