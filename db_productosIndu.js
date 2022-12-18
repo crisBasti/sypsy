@@ -2,7 +2,7 @@ const productosIndu = [
     {id: 1, nombre: "Remera Reebok", tipo: "Remera", cantidad: 1, desc: "Nueva talle 'L', color negro,", precio: 11000, talle: "L", img:"../imagenes/imgIndumentaria/remera_negra_reebok.jpeg", marca:"REEBOK"},
     {id: 2, nombre: "remera Nike", tipo: "Remera", cantidad: 1, desc: "Color rojo, Nueva talle 'L'", precio: 24200, talle: "L", img:"../imagenes/imgIndumentaria/remera_roja_nike.jpeg", marca:"Inova"},
     {id: 3, nombre: "Jeans Zara", tipo: "Pantalon", cantidad: 1, desc: "Color azul clasico,con roturas al frente. Nuevo talle '48'", precio: 27500, talle: "", img:"../imagenes/imgIndumentaria/vaquero_zara.jpeg", marca:"Mobile"},
-    {id: 4, nombre: "pantalon Nike", tipo: "Pantalon", cantidad: 1, desc: "Color azul con rojo. Nuevo Talle 'M'", precio: 30800, talle: "M", img:"../imagenes/imgIndumentaria/pantalon_nike.jpeg", marca:"Apple"},
+    {id: 4, nombre: "pantalon Nike", tipo: "Pantalon", cantidad: 1, desc: "Color azul con rojo. Nuevo Talle 'M'", precio: 30800, talle: "M", img:"../imagenes/imgIndumentaria/pantalon_nike.jpeg", marca:"??"},
     {id: 5, nombre: "Blusa Rayada", tipo: "Remera", cantidad: 1, desc: "Color blanco con rosa. Usada. Talle 1", precio: 300, talle: "1", img:"../imagenes/imgIndumentaria/blusaRayada_Ingrid.jpeg", marca:"??"},
     {id: 6, nombre: "Enterito de Jeans", tipo: "Vestido", cantidad: 1, desc: "Nuevo, tipo vestidito de jeans. Talle 40/42", precio: 600, talle: "40/42", img:"../imagenes/imgIndumentaria/enteritoJeans_Ingrid.jpeg", marca:"??"},
     {id: 7, nombre: "Remera Azul", tipo: "Remera", cantidad: 1, desc: "Color azul. Nueva. Talle : 'M'", precio: 500, talle: "M", img:"../imagenes/imgIndumentaria/remeraAzul_Ingrid.jpeg", marca:"??"},
@@ -14,5 +14,15 @@ const productosIndu = [
     {id: 13, nombre: "Top rosa", tipo: "Remera", cantidad: 1, desc: "Color Rosa. Usado. Talle : '2'", precio: 300, talle: "2", img:"../imagenes/imgIndumentaria/topRosa_Ingrid.jpeg", marca:"??"},
     {id: 14, nombre: "Vestido De Tiritas", tipo: "Vestido", cantidad: 1, desc: "Color naraja con gris. Nuevo. Talle : 'L'", precio: 600, talle: "L", img:"../imagenes/imgIndumentaria/vestidoTiritas_Ingrid.jpeg", marca:"??"},
     {id: 15, nombre: "Top Deportivo", tipo: "Top", cantidad: 1, desc: "Color Negro. Nuevo. Talle : '2'", precio: 350, talle: "2", img:"../imagenes/imgIndumentaria/top_deportivo.jpeg", marca:"??"},
-    {id: 16, nombre: "Pantalon", tipo: "Pantalon", cantidad: 1, desc: "Color Rojo. Nuevo. Talle : 'M'", precio: 2000, talle: "L", img:"../imagenes/imgIndumentaria/pantalon_rojo.jpeg", marca:"??"}
-]  
+    {id: 16, nombre: "Pantalon", tipo: "Pantalon", cantidad: 1, desc: "Color Rojo. Nuevo. Talle : 'M'", precio: 2000, talle: "L", img:"../imagenes/imgIndumentaria/pantalon_rojo.jpeg", marca:"??"},
+    {id: 17, nombre: "Panchas", tipo: "Calzado", cantidad: 1, desc: "vaios Colores. Nuevas. Varios Talles. consultar por talles y precios", precio: 2500, talle: "varios", img:"../imagenes/imgIndumentaria/Panchas-Varias.jpeg", marca:"Pamela"},
+    {id: 18, nombre: "Panchas Negras", tipo: "Calzado", cantidad: 1, desc: "Color negras. Nuevas. Consultar por talles y colores", precio: 2500, talle: "varios", img:"../imagenes/imgIndumentaria/Panchas-Negras.jpeg", marca:"Pamela"},
+    {id: 19, nombre: "Panchas", tipo: "Calzado", cantidad: 1, desc: "Color Negro. Nuevas. Varios Talles. consultar por talles y precios", precio: 2500, talle: "varios", img:"../imagenes/imgIndumentaria/Panchas-NegrasLateral.jpeg", marca:"Pamela"},
+    {id: 20, nombre: "Panchas", tipo: "Calzado", cantidad: 1, desc: "Color Marrones. Nuevas. Varios Talles. consultar por talles y precios", precio: 2500, talle: "varios", img:"../imagenes/imgIndumentaria/Panchas-marrones.jpeg", marca:"Pamela"},
+    {id: 21, nombre: "Panchas", tipo: "Calzado", cantidad: 1, desc: "Color Marron. Nuevas. Varios Talles. consultar por talles y precios", precio: 2500, talle: "varios", img:"../imagenes/imgIndumentaria/Panchas-marronesLateral.jpeg", marca:"Pamela"},
+    {id: 22, nombre: "Panchas Tiritas", tipo: "Calzado", cantidad: 1, desc: "Colores varios. Nuevas. Varios Talles. consultar por talles y precios", precio: 2500, talle: "varios", img:"../imagenes/imgIndumentaria/Panchas-TiritasLateral.jpeg", marca:"Pamela"},
+    {id: 23, nombre: "Panchas Tiritas", tipo: "Calzado", cantidad: 1, desc: "Varios Colores. Nuevas. Varios Talles. consultar por talles y precios", precio: 2500, talle: "varios", img:"../imagenes/imgIndumentaria/Panchas-Tiritas.jpeg", marca:"Pamela"},
+    {id: 24, nombre: "Panchas", tipo: "Calzado", cantidad: 1, desc: "vaios Colores. Nuevas. Varios Talles. consultar por talles y precios", precio: 2500, talle: "varios", img:"../imagenes/imgIndumentaria/Panchas-verdesLateral.jpeg", marca:"Pamela"}
+]
+
+//  agregar productos

@@ -12,7 +12,7 @@ const productosElectro = [
     {id: 11, nombre: "Combo Potencia Parlantes", tipo: "Electro", cantidad: 1, desc: "Potencia mas Parlantes. Nuevo. Precio de contado", precio: 100000, talle: "", img:"../imagenes/imgElectro/combo-potencia-parlantes.jpeg", marca:"Yessi"},
     {id: 12, nombre: "Combo Potencia Parlantes Dobles", tipo: "Electro", cantidad: 1, desc: "Potencia mas Parlantes. Nuevo. Precio de contado", precio: 126000, talle: "", img:"../imagenes/imgElectro/combo-potencia-parlantesdobles.jpeg", marca:"Yessi"},
     {id: 13, nombre: "Lavarropas + Secarropas", tipo: "Electro", cantidad: 1, desc: "Lavarropas CODINI 10 KG. + Secarropas CODINI 6,5 kg. NUEVOS. Precio Contado", precio: 49900, talle: "", img:"../imagenes/imgElectro/combo-lavasecarropas.jpeg", marca:"Yessi"},
-    {id: 14, nombre: "Heladera Batea Exibidora", tipo: "Electro", cantidad: 1, desc: "Heladera Batea Exibidora, frente de vidrio, Nueva. Precio de Contado", precio: 396480, talle: "", img:"../imagenes/imgElectro/exibidora-carniceria.jpeg", marca:"Apple"}
+    {id: 14, nombre: "Heladera Batea Exibidora", tipo: "Electro", cantidad: 1, desc: "Heladera Batea Exibidora, frente de vidrio, Nueva. Precio de Contado", precio: 396480, talle: "", img:"../imagenes/imgElectro/exibidora-carniceria.jpeg", marca:"Yessi"}
 ]
 
 
