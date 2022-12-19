@@ -22,7 +22,8 @@ const productosIndu = [
     {id: 21, nombre: "Panchas", tipo: "Calzado", cantidad: 1, desc: "Color Marron. Nuevas. Varios Talles. consultar por talles y precios", precio: 2500, talle: "varios", img:"../imagenes/imgIndumentaria/Panchas-marronesLateral.jpeg", marca:"Pamela"},
     {id: 22, nombre: "Panchas Tiritas", tipo: "Calzado", cantidad: 1, desc: "Colores varios. Nuevas. Varios Talles. consultar por talles y precios", precio: 2500, talle: "varios", img:"../imagenes/imgIndumentaria/Panchas-TiritasLateral.jpeg", marca:"Pamela"},
     {id: 23, nombre: "Panchas Tiritas", tipo: "Calzado", cantidad: 1, desc: "Varios Colores. Nuevas. Varios Talles. consultar por talles y precios", precio: 2500, talle: "varios", img:"../imagenes/imgIndumentaria/Panchas-Tiritas.jpeg", marca:"Pamela"},
-    {id: 24, nombre: "Panchas", tipo: "Calzado", cantidad: 1, desc: "vaios Colores. Nuevas. Varios Talles. consultar por talles y precios", precio: 2500, talle: "varios", img:"../imagenes/imgIndumentaria/Panchas-verdesLateral.jpeg", marca:"Pamela"}
+    {id: 24, nombre: "Panchas", tipo: "Calzado", cantidad: 1, desc: "vaios Colores. Nuevas. Varios Talles. consultar por talles y precios", precio: 2500, talle: "varios", img:"../imagenes/imgIndumentaria/Panchas-verdesLateral.jpeg", marca:"Pamela"},
+    {id: 25, nombre: "Camiseta Titular Argentina", tipo: "Remera", cantidad: 1, desc: "Camiseta de la Seleccion Argentina 2022. Celeste y Blanca, estampada Numero 5 Paredes", precio: 4000, talle: "varios", img:"../imagenes/imgIndumentaria/PatoIndu-CamisetaTitularSeleccionArg5.jpeg", marca:"Patoindu"}
 ]
 
 //  agregar productos
