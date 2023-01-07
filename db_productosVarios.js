@@ -20,11 +20,10 @@ const productosVarios = [
     {id: 20, nombre: "Masajeador De Pies", tipo: "Electro", cantidad: 1, desc: "Masajeador para pies Nuevo.", precio: 12000, talle: "unico", img:"../imagenes/imgVarios/masajeadorPiesGama.jpeg", marca:"Belen"},
     {id: 21, nombre: "Mesa Cuadrada", tipo: "Mueble", cantidad: 1, desc: "Mesa cuadrada, viene con base tambien cuadrada. usada, algunos detalles. Precio Negociable", precio: 3500, talle: "unico", img:"../imagenes/imgVarios/mesaFrente.jpeg", marca:"Pamela"},
     {id: 22, nombre: "Parlante Monster", tipo: "Musical", cantidad: 1, desc: "Parlante Monster Nuevo, sin detalles", precio: 45000, talle: "unico", img:"../imagenes/imgVarios/parlanteMonster45000.jpeg", marca:"Adan"}
+    {id: 23, nombre: "Pileta", tipo: "Pileta", cantidad: 1, desc: "Pileta Gigante. Completa con todos los caños incluidos. Medidas : 4 mts largo, 2mts Ancho, 90cm profundo. Impeclable , lista para armar, llenar y disfrutar", precio: 60000, talle: "", img:"../imagenes/imgVarios/PiletaCostado-Jony.jpeg", marca:"Pelopincho"}
+    {id: 24, nombre: "LLanta De Ford EcoSport", tipo: "Rueda", cantidad: 1, desc: "Llanta de Ford Eco Sport Cantidad 1", precio: 40000, talle: "", img:"../imagenes/imgVarios/llantaCostadoEcoSport-Jony.jpeg", marca:"Goodyear"}
 ]
 
-//  {id: 23, nombre: "Perfume Aguas frescas Adolfo Dominguez", tipo: "Perfume", cantidad: 1, desc: "Perfume Perfume femenino 'Agua Fresca' de Adolfo Dominguez", precio: 60000, talle: "195/55R15", img:"../imagenes/imgVarios/llantaRueda.jpeg", marca:"Goodyear"}
-//  {id: 24, nombre: "Rueda Goodyear", tipo: "varios", cantidad: 1, desc: "Rueda Nueva Goodyear Medidas: 195/55R15. cantidad : 1", precio: 60000, talle: "195/55R15", img:"../imagenes/imgVarios/llantaRueda.jpeg", marca:"Goodyear"}
-//  {id: 25, nombre: "Rueda Goodyear", tipo: "varios", cantidad: 1, desc: "Rueda Nueva Goodyear Medidas: 195/55R15. cantidad : 1", precio: 60000, talle: "195/55R15", img:"../imagenes/imgVarios/llantaRueda.jpeg", marca:"Goodyear"}
 //  {id: 26, nombre: "Rueda Goodyear", tipo: "varios", cantidad: 1, desc: "Rueda Nueva Goodyear Medidas: 195/55R15. cantidad : 1", precio: 60000, talle: "195/55R15", img:"../imagenes/imgVarios/llantaRueda.jpeg", marca:"Goodyear"}
 //  {id: 27, nombre: "Rueda Goodyear", tipo: "varios", cantidad: 1, desc: "Rueda Nueva Goodyear Medidas: 195/55R15. cantidad : 1", precio: 60000, talle: "195/55R15", img:"../imagenes/imgVarios/llantaRueda.jpeg", marca:"Goodyear"}
 //  {id: 28, nombre: "Rueda Goodyear", tipo: "varios", cantidad: 1, desc: "Rueda Nueva Goodyear Medidas: 195/55R15. cantidad : 1", precio: 60000, talle: "195/55R15", img:"../imagenes/imgVarios/llantaRueda.jpeg", marca:"Goodyear"}
