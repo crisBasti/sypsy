@@ -9,22 +9,24 @@ const productosIndu = [
     {id: 8, nombre: "Riñoneras Air Jordan", tipo: "Prendas", cantidad: 1, desc: "Color Negro , Blanco y Rojo. Nuevas.", precio: 80000, talle: "??", img:"../imagenes/imgIndumentaria/riñoneras_air_jordan_jotita.jpeg", marca:"Air Jordan"},
     {id: 9, nombre: "Ojotas Mercedes Benz", tipo: "Calzado", cantidad: 1, desc: "Color Negras. Nueva. Talle : '10us'", precio: 90000, talle: "10us", img:"../imagenes/imgIndumentaria/ojotas_mercedes_benz_petronas_jotita.jpeg", marca:"Mercedes Benz"},
     {id: 10, nombre: "Nike Air Max", tipo: "Calzado", cantidad: 1, desc: "Color rojo. Nueva. Talle : '9.5us'", precio: 255000, talle: "9.5", img:"../imagenes/imgIndumentaria/nike_air_max_90_sp_jotita.jpeg", marca:"NIKE"},
-    {id: 11, nombre: "Remerita de tiritas", tipo: "Remera", cantidad: 1, desc: "Color rosa. Nuevo. Talle : '2'", precio: 500, talle: "2", img:"../imagenes/imgIndumentaria/remeritaTiritas_Ingrid.jpeg", marca:"??"},
-    {id: 12, nombre: "Top gris", tipo: "Remera", cantidad: 1, desc: "Color Gris. Usada. Talle : '1'", precio: 300, talle: "1", img:"../imagenes/imgIndumentaria/topGris_Ingrid.jpeg", marca:"?'"},
-    {id: 13, nombre: "Top rosa", tipo: "Remera", cantidad: 1, desc: "Color Rosa. Usado. Talle : '2'", precio: 300, talle: "2", img:"../imagenes/imgIndumentaria/topRosa_Ingrid.jpeg", marca:"??"},
-    {id: 14, nombre: "Vestido De Tiritas", tipo: "Vestido", cantidad: 1, desc: "Color naraja con gris. Nuevo. Talle : 'L'", precio: 600, talle: "L", img:"../imagenes/imgIndumentaria/vestidoTiritas_Ingrid.jpeg", marca:"??"},
-    {id: 15, nombre: "Top Deportivo", tipo: "Top", cantidad: 1, desc: "Color Negro. Nuevo. Talle : '2'", precio: 350, talle: "2", img:"../imagenes/imgIndumentaria/top_deportivo.jpeg", marca:"??"},
-    {id: 16, nombre: "Pantalon", tipo: "Pantalon", cantidad: 1, desc: "Color Rojo. Nuevo. Talle : 'M'", precio: 2000, talle: "L", img:"../imagenes/imgIndumentaria/pantalon_rojo.jpeg", marca:"??"},
-    {id: 17, nombre: "Panchas", tipo: "Calzado", cantidad: 1, desc: "Varios Colores. Nuevas. Varios Talles. consultar por talles y precios", precio: 2500, talle: "varios", img:"../imagenes/imgIndumentaria/Panchas-Varias.jpeg", marca:"Pamela"},
-    {id: 18, nombre: "Panchas Negras", tipo: "Calzado", cantidad: 1, desc: "Color negras. Nuevas. Consultar por talles y colores", precio: 2500, talle: "varios", img:"../imagenes/imgIndumentaria/Panchas-Negras.jpeg", marca:"Pamela"},
-    {id: 19, nombre: "Panchas", tipo: "Calzado", cantidad: 1, desc: "Color Negro. Nuevas. Varios Talles. consultar por talles y precios", precio: 2500, talle: "varios", img:"../imagenes/imgIndumentaria/Panchas-NegrasLateral.jpeg", marca:"Pamela"},
+    {id: 11, nombre: "Gorra Mercedez", tipo: "Gorra", cantidad: 1, desc: "Nueva. Gorra Mercedez Benz. color Azul", precio: 45000, talle: "Unico", img:"../imagenes/imgIndumentaria/gorra_1.jpeg", marca:"Jotita"},
+    {id: 12, nombre: "Campera Champion", tipo: "Campera", cantidad: 1, desc: "Campera con capucha bolsillos. Color Negro. Nueva. Talle : 'M'", precio: 90000, talle: "M", img:"../imagenes/imgIndumentaria/campera_capucha_champions_jotita.jpeg", marca:"CHAMPION"},
+    {id: 13, nombre: "Short Nike", tipo: "Short", cantidad: 1, desc: "Color negro y blanco. Nuevo. Talles : 'M'y'XL'", precio: 70000, talle: "M,XL", img:"../imagenes/imgIndumentaria/short_nike_jotita.jpeg", marca:"NIKE"},
+    {id: 14, nombre: "Short Jordan", tipo: "Short", cantidad: 1, desc: "Color gris con naraja. Nuevo. Talle : 'XL'", precio: 90000, talle: "XL", img:"../imagenes/imgIndumentaria/short_jordan_jotita.jpeg", marca:"JORDAN"},
+    {id: 15, nombre: "Short Nike de Baño", tipo: "Short", cantidad: 1, desc: "Color Verde. Nuevo. Talle : 'XL'", precio: 85000, talle: "XL", img:"../imagenes/imgIndumentaria/short_nike_baño_jotita.jpeg", marca:"NIKE"},
+    {id: 16, nombre: "Short", tipo: "Short", cantidad: 1, desc: "Color Negro y Blanco. Nuevo. Talle : 'L'", precio: 95000, talle: "L", img:"../imagenes/imgIndumentaria/shot_bcongro_jotita.jpeg", marca:"??"},
+    {id: 17, nombre: "Short Nike Azul", tipo: "Short", cantidad: 1, desc: "Color Azul. Nuevo . Nike Talle : 'M'", precio: 70000, talle: "M", img:"../imagenes/imgIndumentaria/shot_bcongro_jotita.jpeg", marca:"NIKE"},
+    {id: 18, nombre: "Pantalon Gris Nike", tipo: "Pantalon", cantidad: 1, desc: "Color Gris ,bolsillos. Nuevo. Talle : 'M'", precio: 120000, talle: "M", img:"../imagenes/imgIndumentaria/pantalon_nike_gris_jotita.jpeg", marca:"NIKE"},
+    {id: 19, nombre: "Short GS Nike", tipo: "Short", cantidad: 1, desc: "Color Morado y negro. Talle : 'L' ", precio: 115000, talle: "L", img:"../imagenes/imgIndumentaria/Nike_Lebron_James_Space_Jam_Legacy_Goon_Squad_jotita.jpeg", marca:"NIKE"},
     {id: 20, nombre: "Panchas", tipo: "Calzado", cantidad: 1, desc: "Color Marrones. Nuevas. Varios Talles. consultar por talles y precios", precio: 2500, talle: "varios", img:"../imagenes/imgIndumentaria/Panchas-marrones.jpeg", marca:"Pamela"},
     {id: 21, nombre: "Panchas", tipo: "Calzado", cantidad: 1, desc: "Color Marron. Nuevas. Varios Talles. consultar por talles y precios", precio: 2500, talle: "varios", img:"../imagenes/imgIndumentaria/Panchas-marronesLateral.jpeg", marca:"Pamela"},
     {id: 22, nombre: "Panchas Tiritas", tipo: "Calzado", cantidad: 1, desc: "Colores varios. Nuevas. Varios Talles. consultar por talles y precios", precio: 2500, talle: "varios", img:"../imagenes/imgIndumentaria/Panchas-TiritasLateral.jpeg", marca:"Pamela"},
     {id: 23, nombre: "Panchas Tiritas", tipo: "Calzado", cantidad: 1, desc: "Varios Colores. Nuevas. Varios Talles. consultar por talles y precios", precio: 2500, talle: "varios", img:"../imagenes/imgIndumentaria/Panchas-Tiritas.jpeg", marca:"Pamela"},
     {id: 24, nombre: "Panchas", tipo: "Calzado", cantidad: 1, desc: "Varios Colores. Nuevas. Varios Talles. consultar por talles y precios", precio: 2500, talle: "varios", img:"../imagenes/imgIndumentaria/Panchas-verdesLateral.jpeg", marca:"Pamela"},
     {id: 25, nombre: "Camiseta Titular Argentina", tipo: "Remera", cantidad: 1, desc: "Camiseta de la Seleccion Argentina 2022. Celeste y Blanca, estampada Numero 5 Paredes", precio: 4000, talle: "varios", img:"../imagenes/imgIndumentaria/PatoIndu-CamisetaTitularSeleccionArg5.jpeg", marca:"Patoindu"},
-    {id: 26, nombre: "Gorra Mercedez", tipo: "Gorra", cantidad: 1, desc: "Nueva. Gorra Mercedez Benz. color Azul", precio: 45000, talle: "Unico", img:"../imagenes/imgIndumentaria/gorra_1.jpeg", marca:"Jotita"}
+    {id: 26, nombre: "Remerita de tiritas", tipo: "Remera", cantidad: 1, desc: "Color rosa. Nuevo. Talle : '2'", precio: 500, talle: "2", img:"../imagenes/imgIndumentaria/remeritaTiritas_Ingrid.jpeg", marca:"??"}
 ]
+    
+    
 
 //  agregar productos
