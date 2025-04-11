@@ -13,7 +13,6 @@ const productosVarios = [
     {id: 13, nombre: "Comoda Cajonera", tipo: "Mueble", cantidad: 1, desc: "Comoda cajonera, con vidrio arriba. Manijas de Bronce", precio: 15000, talle: "", img:"../imagenes/imgVarios/comodaCajonera.jpeg", marca:"Alelux"},
     {id: 14, nombre: "Ropero", tipo: "Mueble", cantidad: 1, desc: "Ropero 3 Cuerpos. Con Puerta espejo. Usado", precio: 36000, talle: "", img:"../imagenes/imgVarios/RoperoNarnia.jpeg", marca:"Alelux"},
     {id: 15, nombre: "Mueble Esquinero", tipo: "Mueble", cantidad: 1, desc: "Mueble esquinero, de madera, Puerta rebatible. Usado", precio: 12000, talle: "", img:"../imagenes/imgVarios/muebleEsquinero.jpeg", marca:"Alelux"},
-    {id: 16, nombre: "Cartel de Neon", tipo: "Cartel", cantidad: 1, desc: "Realizado en Neon, Para Cliente que Cancelo pedido. Nuevo. El precio es con instalacion incluida", precio: 25000, talle: "", img:"../imagenes/imgVarios/cartelModista.jpeg", marca:"Alelux"},
     {id: 17, nombre: "Rueda Goodyear", tipo: "varios", cantidad: 1, desc: "Rueda Nueva Goodyear Medidas: 195/55R15. cantidad : 1", precio: 60000, talle: "195/55R15", img:"../imagenes/imgVarios/llantaRueda.jpeg", marca:"Goodyear"},
     {id: 18, nombre: "Conejito", tipo: "varios", cantidad: 1, desc: "Conejito pequeño", precio: 3500, talle: "unico", img:"../imagenes/imgVarios/conejito.jpeg", marca:"Jony"},
     {id: 19, nombre: "Base de mesa", tipo: "Mueble", cantidad: 1, desc: "Base de apoyo Para mesa, usada algunos detalles. Precio negociable", precio: 3500, talle: "unico", img:"../imagenes/imgVarios/basedelamesa.jpeg", marca:"Pamela"},
@@ -22,9 +21,11 @@ const productosVarios = [
     {id: 22, nombre: "Parlante Monster", tipo: "Musical", cantidad: 1, desc: "Parlante Monster Nuevo, sin detalles", precio: 45000, talle: "unico", img:"../imagenes/imgVarios/parlanteMonster45000.jpeg", marca:"Adan"},
     {id: 23, nombre: "Pileta", tipo: "Pileta", cantidad: 1, desc: "Pileta Gigante. Completa con todos los caños incluidos. Medidas : 4 mts largo, 2mts Ancho, 90cm profundo. Impeclable , lista para armar, llenar y disfrutar", precio: 60000, talle: "", img:"../imagenes/imgVarios/PiletaCostado-Jony.jpeg", marca:"Pelopincho"},
     {id: 24, nombre: "LLanta De Ford EcoSport", tipo: "Rueda", cantidad: 1, desc: "Llanta de Ford Eco Sport Cantidad 1", precio: 40000, talle: "", img:"../imagenes/imgVarios/llantaCostadoEcoSport-Jony.jpeg", marca:"Goodyear"},
-    {id: 26, nombre: "PROBANDO PRODUCTOS DE FCBK CON SUS LINKS DED IMAGENES", tipo: "varios", cantidad: 1, desc: "pRODUCTO KIT DE TUBOS DE FCBK", precio: 15000, talle: "VARIOS", img:"https://www.facebook.com/marketplace/item/539645495062415/?ref=search&referral_code=null&referral_story_type=post&tracking=browse_serp%3A38969416-3a33-443c-a001-005564bf94e1", marca:"Goodyear"}
+    {id: 26, nombre: "PROBANDO PRODUCTOS DE FCBK CON SUS LINKS DE IMAGENES", tipo: "varios", cantidad: 1, desc: "pRODUCTO KIT DE TUBOS DE FCBK", precio: 15000, talle: "VARIOS", img:"", marca:"Goodyear"}
 ]
 
+
+//  {id: 16, nombre: "Cartel de Neon", tipo: "Cartel", cantidad: 1, desc: "Realizado en Neon, Para Cliente que Cancelo pedido. Nuevo. El precio es con instalacion incluida", precio: 25000, talle: "", img:"../imagenes/imgVarios/cartelModista.jpeg", marca:"Alelux"},
 //  {id: 27, nombre: "Rueda Goodyear", tipo: "varios", cantidad: 1, desc: "Rueda Nueva Goodyear Medidas: 195/55R15. cantidad : 1", precio: 60000, talle: "195/55R15", img:"../imagenes/imgVarios/llantaRueda.jpeg", marca:"Goodyear"}
 //  {id: 28, nombre: "Rueda Goodyear", tipo: "varios", cantidad: 1, desc: "Rueda Nueva Goodyear Medidas: 195/55R15. cantidad : 1", precio: 60000, talle: "195/55R15", img:"../imagenes/imgVarios/llantaRueda.jpeg", marca:"Goodyear"}
 //  {id: 17, nombre: "Rueda Goodyear", tipo: "varios", cantidad: 1, desc: "Rueda Nueva Goodyear Medidas: 195/55R15. cantidad : 1", precio: 60000, talle: "195/55R15", img:"../imagenes/imgVarios/llantaRueda.jpeg", marca:"Goodyear"}
