@@ -20,3 +20,4 @@ const productosIndu = [
     {id: 19, nombre: "Short GS Nike", tipo: "Short", cantidad: 1, desc: "Color Morado y negro. Talle : 'L' ", precio: 115000, talle: "L", img:"../imagenes/imgIndumentaria/Nike_Lebron_James_Space_Jam_Legacy_Goon_Squad_jotita.jpeg", marca:"NIKE"},
     {id: 20, nombre: "Gorra Tom Pinos", tipo: "Gorra", cantidad: 1, desc: "Gorra Color Negro. Nueva detalle Gato Tom", precio: 67000, talle: "", img:"../imagenes/imgIndumentaria/gorra_2.jpeg", marca:"??"}
 ]
+
