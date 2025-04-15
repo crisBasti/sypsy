@@ -21,18 +21,4 @@ const productosElectro = [
     {id: 20, nombre: "Split LG Art cool Inverter 4500 fr. Frio-Calor", tipo: "Aire acondicionado", cantidad: 1, desc: "Split LG Art cool Inverter 4500 fr. Frio-Calor. Nuevo en caja", precio: 1655000, talle: "", img:"../imagenes/imgElectro/imgAAAA/split_lg_artcool_inverter_4500_f-c.jpg", marca:"LG/jose"},
     {id: 21, nombre: "Split LG Art cool Inverter 6000 fr. Frio-Calor", tipo: "Aire acondicionado", cantidad: 1, desc: "Split LG Art cool Inverter 6000 fr. Frio-Calor. Nuevo en caja", precio: 1970000, talle: "", img:"../imagenes/imgElectro/imgAAAA/split_lg_artcool_inverter_6000_f-c.jpg", marca:"LG/jose"},
     {id: 22, nombre: "300 mbps High Power Wireless usb Adapter", tipo: "Adaptador Antena Wifi de 300 mbps", cantidad: 1, desc: "Color Gris, se carga con cable mini usb. Nuevo en caja", precio: 2000, talle: "", img:"../imagenes/imgElectro/300mbps_High_Power_Wireless_usb_Adapter.webp", marca:"Salta_2025"}
-    
-    
 ]
-
-
-//     productos sacados de la base de datos Elecro
-
-
-//     {id: 16, nombre: "Foco bolichero", tipo: "Lampara", cantidad: 1, desc: "proyecta luces de Colores, se conecta a rosca . Nuevo en caja", precio: 500, talle: "", img:"../imagenes/imgElectro/lamparaLuminosa.jpeg", marca:"Crosley"}
-//     {id: 14, nombre: "Auriculares Wireless P47", tipo: "auricular bluetooth", cantidad: 1, desc: "Color negro, se conecta con cable, via bluetooth. se carga con mini USB. Nuevo en caja", precio: 1800, talle: "", img:"../imagenes/imgElectro/AuricularP47.jpeg", marca:"P47"},
-//     {id: 15, nombre: "Termometro Digital", tipo: "digital", cantidad: 1, desc: "Color blanco, funciona a pilas. Nuevo en caja", precio: 500, talle: "", img:"http://d3ugyf2ht6aenh.cloudfront.net/stores/959/045/products/termometro-digital-with-beeper-lcd-ninos-y-adultos-d_nq_np_777369-mla42089293885_062020-f1-094448def914b4d10815986418223840-640-0.jpg", marca:"China"},
-//     {id: 16, nombre: "Parlante mini", tipo: "Parlante", cantidad: 1, desc: "Colores varios, se conecta con cable, via bluetooth. Nuevo en caja", precio: 500, talle: "", img:"../imagenes/imgElectro/paarlantesMini.jpeg", marca:"China"},
-//     {id: 17, nombre: "Balanza de Precision", tipo: "Digital", cantidad: 1, desc: "Color Gris, se carga con cable mini usb. Nuevo en caja", precio: 2000, talle: "", img:"../imagenes/imgElectro/balanzaPrecision.jpeg", marca:"Shirka"},
-//     {id: 18, nombre: "Laser larga distancia", tipo: "Led", cantidad: 1, desc: "Color negro, fnciona a pilas. Nuevo en caja", precio: 800, talle: "", img:"../imagenes/imgElectro/laser.jpeg", marca:"China"},
-//     {id: 19, nombre: "Auriculares Y47", tipo: "Auricular", cantidad: 1, desc: "Color rosa, se conecta con cable, via Bluetooth. Se carga con mini usb. Nuevo en caja", precio: 2500, talle: "", img:"../imagenes/imgElectro/auricularesY47.jpeg", marca:"Y47"},
