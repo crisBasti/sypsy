@@ -12,21 +12,10 @@ const productosIndu = [
     {id: 11, nombre: "Gorra Mercedez", tipo: "Gorra", cantidad: 1, desc: "Nueva. Gorra Mercedez Benz. color Azul", precio: 45000, talle: "Unico", img:"../imagenes/imgIndumentaria/gorra_1.jpeg", marca:"Jotita"},
     {id: 12, nombre: "Campera Champion", tipo: "Campera", cantidad: 1, desc: "Campera con capucha bolsillos. Color Negro. Nueva. Talle : 'M'", precio: 90000, talle: "M", img:"../imagenes/imgIndumentaria/campera_capucha_champions_jotita.jpeg", marca:"CHAMPION"},
     {id: 13, nombre: "Short Nike", tipo: "Short", cantidad: 1, desc: "Color negro y blanco. Nuevo. Talles : 'M'y'XL'", precio: 70000, talle: "M,XL", img:"../imagenes/imgIndumentaria/short_nike_jotita.jpeg", marca:"NIKE"},
-    {id: 14, nombre: "Short Jordan algodon", tipo: "Short", cantidad: 1, desc: "Color gris con naraja. Nuevo. Talle : 'XL'", precio: 90000, talle: "XL", img:"../imagenes/imgIndumentaria/short_jordan_jotita.jpeg", marca:"JORDAN"},
+    {id: 14, nombre: "Short Jordan Algodon", tipo: "Short", cantidad: 1, desc: "Color gris con naraja. Nuevo. Talle : 'XL'", precio: 90000, talle: "XL", img:"../imagenes/imgIndumentaria/short_jordan_jotita.jpeg", marca:"JORDAN"},
     {id: 15, nombre: "Short Nike de Baño", tipo: "Short", cantidad: 1, desc: "Color Verde. Nuevo. Talle : 'XL'", precio: 85000, talle: "XL", img:"../imagenes/imgIndumentaria/short_nike_baño_jotita.jpeg", marca:"NIKE"},
     {id: 16, nombre: "Short Jordan Bco Ngro", tipo: "Short", cantidad: 1, desc: "Color Negro y Blanco. Nuevo. Talle : 'L'", precio: 95000, talle: "L", img:"../imagenes/imgIndumentaria/short_bcongro_jotita.jpeg", marca:"??"},
     {id: 17, nombre: "Short Nike Azul", tipo: "Short", cantidad: 1, desc: "Color Azul. Nuevo . Nike Talle : 'M'", precio: 70000, talle: "M", img:"../imagenes/imgIndumentaria/short_nike_azul_jotita.jpeg", marca:"NIKE"},
     {id: 18, nombre: "Pantalon Gris Nike", tipo: "Pantalon", cantidad: 1, desc: "Color Gris ,bolsillos. Nuevo. Talle : 'M'", precio: 120000, talle: "M", img:"../imagenes/imgIndumentaria/pantalon_nike_gris_jotita.jpeg", marca:"NIKE"},
     {id: 19, nombre: "Short GS Nike", tipo: "Short", cantidad: 1, desc: "Color Morado y negro. Talle : 'L' ", precio: 115000, talle: "L", img:"../imagenes/imgIndumentaria/Nike_Lebron_James_Space_Jam_Legacy_Goon_Squad_jotita.jpeg", marca:"NIKE"}
 ]
-
-
-
-//  agregar productos
-//{id: 20, nombre: "Panchas", tipo: "Calzado", cantidad: 1, desc: "Color Marrones. Nuevas. Varios Talles. consultar por talles y precios", precio: 2500, talle: "varios", img:"../imagenes/imgIndumentaria/Panchas-marrones.jpeg", marca:"Pamela"},
-//{id: 21, nombre: "Panchas", tipo: "Calzado", cantidad: 1, desc: "Color Marron. Nuevas. Varios Talles. consultar por talles y precios", precio: 2500, talle: "varios", img:"../imagenes/imgIndumentaria/Panchas-marronesLateral.jpeg", marca:"Pamela"},
-//{id: 22, nombre: "Panchas Tiritas", tipo: "Calzado", cantidad: 1, desc: "Colores varios. Nuevas. Varios Talles. consultar por talles y precios", precio: 2500, talle: "varios", img:"../imagenes/imgIndumentaria/Panchas-TiritasLateral.jpeg", marca:"Pamela"},
-//{id: 23, nombre: "Panchas Tiritas", tipo: "Calzado", cantidad: 1, desc: "Varios Colores. Nuevas. Varios Talles. consultar por talles y precios", precio: 2500, talle: "varios", img:"../imagenes/imgIndumentaria/Panchas-Tiritas.jpeg", marca:"Pamela"},
-//{id: 24, nombre: "Panchas", tipo: "Calzado", cantidad: 1, desc: "Varios Colores. Nuevas. Varios Talles. consultar por talles y precios", precio: 2500, talle: "varios", img:"../imagenes/imgIndumentaria/Panchas-verdesLateral.jpeg", marca:"Pamela"},
-//{id: 25, nombre: "Camiseta Titular Argentina", tipo: "Remera", cantidad: 1, desc: "Camiseta de la ^^Seleccion Argentina 2022. Celeste y Blanca, estampada Numero 5 Paredes", precio: 4000, talle: "varios", img:"../imagenes/imgIndumentaria/PatoIndu-CamisetaTitularSeleccionArg5.jpeg", marca:"Patoindu"},
-//{id: 26, nombre: "Remerita de tiritas", tipo: "Remera", cantidad: 1, desc: "Color rosa. Nuevo. Talle : '2'", precio: 500, talle: "2", img:"../imagenes/imgIndumentaria/remeritaTiritas_Ingrid.jpeg", marca:"??"}
