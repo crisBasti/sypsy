@@ -17,5 +17,7 @@ const productosIndu = [
     {id: 16, nombre: "Short Jordan Bco Ngro", tipo: "Short", cantidad: 1, desc: "Color Negro y Blanco. Nuevo. Talle : 'L'", precio: 95000, talle: "L", img:"../imagenes/imgIndumentaria/short_bcongro_jotita.jpeg", marca:"??"},
     {id: 17, nombre: "Short Nike Azul", tipo: "Short", cantidad: 1, desc: "Color Azul. Nuevo . Nike Talle : 'M'", precio: 70000, talle: "M", img:"../imagenes/imgIndumentaria/short_nike_azul_jotita.jpeg", marca:"NIKE"},
     {id: 18, nombre: "Pantalon Gris Nike", tipo: "Pantalon", cantidad: 1, desc: "Color Gris ,bolsillos. Nuevo. Talle : 'M'", precio: 120000, talle: "M", img:"../imagenes/imgIndumentaria/pantalon_nike_gris_jotita.jpeg", marca:"NIKE"},
-    {id: 19, nombre: "Short GS Nike", tipo: "Short", cantidad: 1, desc: "Color Morado y negro. Talle : 'L' ", precio: 115000, talle: "L", img:"../imagenes/imgIndumentaria/Nike_Lebron_James_Space_Jam_Legacy_Goon_Squad_jotita.jpeg", marca:"NIKE"}
+    {id: 19, nombre: "Short GS Nike", tipo: "Short", cantidad: 1, desc: "Color Morado y negro. Talle : 'L' ", precio: 115000, talle: "L", img:"../imagenes/imgIndumentaria/Nike_Lebron_James_Space_Jam_Legacy_Goon_Squad_jotita.jpeg", marca:"NIKE"},
+    {id: 20, nombre: "Gorra Tom Pinos", tipo: "Gorra", cantidad: 1, desc: "Gorra Color Negro. Nueva detalle Gato Tom", precio: 67000, talle: "", img:"../imagenes/imgIndumentaria/gorra_2.jpeg", marca:"??"}
 ]
+
