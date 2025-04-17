@@ -20,7 +20,8 @@ const arrayPrueba = [
     {id: 19, nombre: "Bandeja papas Grande", tipo: "comida", cantidad: 1, desc: "Papas", precio: 360, talle: "", img:"../imagenes/imgComestibles/papas-altokee.jpg", marca:"Altokee15"},
     {id: 20, nombre: "Salchipapas chico", tipo: "comida", cantidad: 1, desc: "Papas , salchicha , huevo y adheresos", precio: 360, talle: "", img:"../imagenes/imgComestibles/salchipapa.jpg", marca:"Altokee15"},
     {id: 21, nombre: "Salchipapas grande", tipo: "comida", cantidad: 1, desc: "Papas , salchicha , huevo y adheresos", precio: 411, talle: "", img:"../imagenes/imgComestibles/salchipapa.jpg", marca:"Altokee15"},
-    {id: 22, nombre: "Papas @Altokee15", tipo: "comida", cantidad: 1, desc: "Papas , Cheddar , Bacon , Perejil , Verdeo", precio: 511, talle: "", img:"../imagenes/imgComestibles/papas-altokee.jpg", marca:"Altokee15"}
+    {id: 34, nombre: "Sandwich Mila", tipo: "comida", cantidad: 1, desc: "El mas rico sandwich al Estilo Tucumano. Carne y Pollo. Lechuga y tomate", precio: 650, talle: "", img:"../imagenes/imgComestibles/sandwichMilaCarneLa28.jpeg", marca:"Minutas La 28"},
+    {id: 35, nombre: "Comidas Altokee15", tipo: "comida", cantidad: 1, desc: "Comidas de Altokee15 Sucursal Bs As", precio: 4800, talle: "", img:"../imagenes/imgComestibles/menu_Altokee15_BsAs.jpeg", marca:"Leichu"}  
 ]
 
 
@@ -66,5 +67,4 @@ const productosComestibles = [
     {id: 31, nombre: "Torta Rocklers", tipo: "comida", cantidad: 1, desc: "Torta decorada con crema y detalles de rockers. Por pedido", precio: 2800, talle: "", img:"../imagenes/imgComestibles/tortaRocklets.jpeg", marca:"El Clan de las Donas"},
     {id: 32, nombre: "Postrecitos surtidos", tipo: "comida", cantidad: 1, desc: "Postrecitos sabor frutilla, chocotorta y oreo", precio: 420, talle: "", img:"../imagenes/imgComestibles/postres_surtidos.jpeg", marca:"Altokee15"},
     {id: 33, nombre: "Empanadas Al estilo Tucumano", tipo: "comida", cantidad: 1, desc: "Las mas ricas empanadas al estilo tucumano. Sabores : -Carne cortada a cuchillo. -Pollo. -Matambre. -Mondongo . Fritas. la Docena $1500", precio: 1500, talle: "", img:"../imagenes/imgComestibles/empanadasFritasLa28.jpeg", marca:"Minutas La 28"},
-    {id: 34, nombre: "Sandwich Mila", tipo: "comida", cantidad: 1, desc: "El mas rico sandwich al Estilo Tucumano. Carne y Pollo. Lechuga y tomate", precio: 650, talle: "", img:"../imagenes/imgComestibles/sandwichMilaCarneLa28.jpeg", marca:"Minutas La 28"}
 ]
