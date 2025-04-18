@@ -8,5 +8,8 @@ const productosVarios = [
     {id: 6, nombre: "Set x13 Blister", tipo: "Herramientas", cantidad: 1, desc: "Set x13 blister. Contiene: *Pinza de punta. *Nivel. *10 puntas de destornillador. *Destornillador de puntas intercambiables.", precio: 11500, img:"../imagenes/imgVarios/set_x13_blister.jpeg", marca:"Leichu"},
     {id: 7, nombre: "Set x3 Blister", tipo: "Herramientas", cantidad: 1, desc: "Set x3 blister. Contiene: *Llave francesa. *Dos destornilladores.", precio: 14500, img:"../imagenes/imgVarios/set_x3_blister.jpeg", marca:"Leichu"},
     {id: 8, nombre: "Set x5 Blister", tipo: "Herramientas", cantidad: 1, desc: "Set x5 blister. Contiene: *Pinza de punta. *Dos destornilladores. *Cutter. *Probador de corriente", precio: 17000, img:"../imagenes/imgVarios/set_x5_blister.jpeg", marca:"Leichu"},
-    {id: 9, nombre: "Ventanal 3 Hojas madera de cedro", tipo: "Ventanal", cantidad: 1, desc: "Ventanal 3 hojas . Madera de Cedro con vitral. Medidas: 2,50 x 1,50 . Tiener algunos detalles. Consultar por reja (no esta incluida) ", precio: 2800000, img:"../imagenes/imgVarios/Ventanal_Cedro_3_hojas.jpeg", marca:"MariaCba"}   
+    {id: 9, nombre: "Ventanal 3 Hojas madera de cedro", tipo: "Ventanal", cantidad: 1, desc: "Ventanal 3 hojas . Madera de Cedro con vitral. Medidas: 2,50 x 1,50 . Tiener algunos detalles. Consultar por reja (no esta incluida) ", precio: 2800000, img:"../imagenes/imgVarios/Ventanal_Cedro_3_hojas.jpeg", marca:"MariaCba"},
+
+
+    {id: 10, nombre: "Duplex en la provincia de Salta", tipo: "Vivienda", cantidad: 1, desc: "Duplex a 50 mts de la ruta 51, altura km 9 y 1/2. Frente a los Robles. Terreno 5x25 mts (125 mts2)", precio: "49000 usd", img:"../imagenes/imgVarios/Duplex_ruta_51_Salta_MaxiC.jpeg", marca:"MaxiC"}   
 ]
