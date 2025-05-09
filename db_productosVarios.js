@@ -12,7 +12,14 @@ const productosVarios = [
     {id: 10, nombre: "Duplex en la provincia de Salta", tipo: "Vivienda", cantidad: 1, desc: "Duplex a 50 mts de la ruta 51, altura km 9 y 1/2. Frente a los Robles. Terreno 5x25 mts (125 mts2)", precio: "49000 usd", img:"../imagenes/imgVarios/Duplex_ruta_51_Salta_MaxiC.jpeg", marca:"MaxiC"},
     {id: 11, nombre: "Moto bicicleta Eléctrica Gicin Bike 8 Max Speed Pro-500W-25km/h-Blanco", tipo: "Vehículo", cantidad: 1, desc: "Experimentá la libertad con la moto eléctrica Gicin Ebike 8 Max Speed Pro. Potente motor de 500W, alcanzando hasta 25km/h. Rendimiento eficiente y velocidad estimulante para tus trayectos urbanos. <h4>ENTREGA INMEDIATA</h4> <b>Salta</b>", precio: 810000, img:"../imagenes/imgVarios/Motocicleta_Electrica_Gicin_Bike_8_Max_Speed_Pro_500W_25kmh.jpg", marca:"NicoSalmoral"},
     {id: 12, nombre: "Motocicleta Zanella ZR 150", tipo: "Vehículo", cantidad: 1, desc: "Zanella zr 150. Impecable, nada para hacerle. Cubiertas nuevas, trasmisión nueva, servis recién hecho. Mod 22. 17.000 km. Precio charlable con dinero en mano <h4>ENTREGA INMEDIATA</h4> <b>Salta</b>", precio: 2800000, img:"../imagenes/imgVarios/zanella_ZR4.jpeg", marca:"Pablitouber"},
-    {id: 13, nombre: "Alquiler Hospedaje en Salta", tipo: "Alquiler", cantidad: 1, desc: "Habitación en alquiler en Salta. Habitaciones 4x4, baños compartidos, cocina compartida. Zona macro centro ( Plaza Alvarado ). <h4> <b>Salta</b> </h4>", precio: 30000, img:"../imagenes/imgVarios/habitacion_Alquiler_Salta.jpeg", marca:"ElPorteño"}
+    {id: 13, nombre: "Alquiler Hospedaje en Salta", tipo: "Alquiler", cantidad: 1, desc: "Habitación en alquiler en Salta. Habitaciones 4x4, baños compartidos, cocina compartida. Zona macro centro ( Plaza Alvarado ). <h4> <b>Salta</b> </h4>", precio: 30000, img:"../imagenes/imgVarios/habitacion_Alquiler_Salta.jpeg", marca:"ElPorteño"},
+    {id: 14, nombre: "Bicicleta Oxea Eikon", tipo: "Bicicleta", cantidad: 1, desc: "Bicicleta Oxea Eikon. Nueva. 24V Shimano Altus Full. Frenos Hidraulicos Shimano. Suspencion Delantera Zoom. Talle : L <h4>ENTREGA INMEDIATA</h4> <b>Salta</b>", precio: 562000, img:"../imagenes/imgVarios/bici_Oxea_Eikon_1.jpeg", marca:"FerDinosaurio"},
+
+    {id: 15, nombre: "Bicicleta Oxea Eikon", tipo: "Bicicleta", cantidad: 1, desc: "Bicicleta Oxea Eikon. Nueva. 24V Shimano Altus Full. Frenos Hidraulicos Shimano. Suspencion Delantera Zoom. Talle : M <h4>ENTREGA INMEDIATA</h4> <b>Salta</b>", precio: 562000, img:"../imagenes/imgVarios/bici_Oxea_Eikon_2.jpeg", marca:"FerDinosaurio"}
+    
+   
+
 ]
+
 
 
